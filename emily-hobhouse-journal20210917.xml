@@ -1,0 +1,2237 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Emily Hobhouse, her Journal : a digital edition</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>Taylor edition</date>
+                </edition>
+                <respStmt>
+                    <resp> Edited by </resp>
+                    <persName>Freddie Hankin.
+                    </persName>
+              
+                </respStmt>
+            </editionStmt>
+            <extent>2 folios.<note>complete</note></extent>
+            <publicationStmt>
+                <publisher>Taylor Institution Library, one of the Bodleian Libraries of the
+                    University of Oxford, </publisher>
+                <date>2020. </date>
+                <availability>
+                    <licence xml:id="xml_files"
+                        target="https://creativecommons.org/licenses/by-sa/4.0/"> XML files are
+                        available for download under a <ref
+                            target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
+                            Attribution-ShareAlike 4.0 International License</ref>
+                        <graphic url="https://i.creativecommons.org/l/by-sa/4.0/80x15.png"/>. </licence>
+                    <licence xml:id="image_files"> The images are reproduced from the Bodleian
+                        Library <ref
+                            target="https://digital.bodleian.ox.ac.uk/objects/8da97e8c-4e12-457d-aad8-3327b3aec183/"
+                            >https://digital.bodleian.ox.ac.uk/objects/8da97e8c-4e12-457d-aad8-3327b3aec183/</ref>
+                        . </licence>
+                </availability>
+                <idno type="DigitalBodleian"
+                    >https://digital.bodleian.ox.ac.uk/objects/8da97e8c-4e12-457d-aad8-3327b3aec183/</idno>
+      
+                <idno type="ORA">***put link to ORA data url here***</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title xml:id="tayeditions">Taylor Editions: </title>
+                <title xml:id="manuscript">Manuscript</title>
+            </seriesStmt>
+            <notesStmt>
+                <note type="images">https://iiif.bodleian.ox.ac.uk/iiif/manifest/8da97e8c-4e12-457d-aad8-3327b3aec183.json</note>
+                <!-- Put the format of the accompanying images (usually PNG, could be TIFF)-->
+                <note type="pbtype">Folio</note>
+                <note type="holding"><p>Transcribed from: <orgName>Bodleian Library</orgName>
+                    Oxford: Bodleian Library MS. Hobhouse 9.</p></note>
+                <note type="intro">
+                    <p>This is a facsimile and transcription of <title>Emily Hobhouse, her
+                        Journal.</title>. </p>
+                    <p>The transcription was encoded in TEI P5 XML by Freddie Hankin. </p>
+                </note>
+            </notesStmt>
+
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Oxford</settlement>
+                        <repository>Bodleian Library</repository>
+                        <idno>MS. Hobhouse 9</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <p> Personal journal containing Hobhouse's thoughts and actions in th<lb/>
+                            lead-up to the crossing to South Africa, the crossing itself, and th<lb/>
+                            first two months initiating the Home Industries. Contains a presse<lb/>
+                            flower, and a newspaper article 'John Stuart Mill: 'Intemperat<lb/>
+                            Discussion'', n.d. </p>
+             
+                    </msContents>
+           
+                    <history>
+                        <origin><p><origDate from="1905-01-01">Jan 1 1905</origDate> to  - <origDate to="1905-04-06">6 Apr 1905</origDate>
+                        </p></origin>
+                    </history>
+                </msDesc>
+                <bibl type="citation"><author><persName>Hobhouse, Emily</persName></author><title level="m">Emily Hobhouse, her Journal</title>
+                    <bibl><date when="1905">1905</date></bibl>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Created by encoding transcription from manuscript. </p>
+            </projectDesc>
+            <editorialDecl>
+                <p>In transcribing Emily Hobhouse's 1905 journal, I have maintained the form and content of the original text as much as possible. 
+                   Original spellings and punctuation are retained, as are deletions and additions by the author. Only in places where this may cause 
+                   confusion have I added editorial notes. Capitalisations have been standardised throughout, due to Hobhouse's somewhat erratic handwriting, 
+                   and passages where the original text is unclear are marked.   
+                </p>
+                
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <particDesc>
+                <listPerson>
+                    <person xml:id="maryhobhouse">
+                        <persName ref="https://www.wikidata.org/wiki/Q75598665">Mary Hobhouse</persName>
+                    </person>
+                    <person xml:id="charlesscott">
+                        <persName ref="https://www.wikidata.org/wiki/Q5006750">Charles Prestwich Scott</persName>
+                    </person>
+                    <person xml:id="williamwatson">
+                        <persName ref="https://www.wikidata.org/wiki/Q8020076">William Watson</persName>
+                    </person>
+                    <person xml:id="robertouthwaite">
+                        <persName ref="https://www.wikidata.org/wiki/Q7346849">Robert Leonard Outhwaite</persName>
+                    </person>
+                    <person xml:id="barbarahammond">
+                        <persName ref="https://www.wikidata.org/wiki/Q18572304">Barbara Hammond</persName>
+                    </person>
+                    <person xml:id="maudhobhouse">
+                        <persName ref="https://m.wikidata.org/wiki/Q76068583">Maud Hobhouse</persName>
+                    </person>
+                    <person xml:id="percyshelley">
+                        <persName ref="https://www.wikidata.org/wiki/Q93343">Percy Bysshe Shelley</persName>
+                    </person>
+                    <person xml:id="constancehebblethwaite">
+                        <persName ref="https://m.wikidata.org/wiki/Q76105702">Constance Hebblethwaite</persName>
+                    </person>
+                    <person xml:id="ernesthebblethwaite">
+                        <persName ref="https://m.wikidata.org/wiki/Q76068595">Ernest Hebblethwaite</persName>
+                    </person>
+                    <person xml:id="arthurhobhouse">
+                        <persName ref="https://www.wikidata.org/wiki/Q4799091">Arthur Hobhouse</persName>
+                    </person>
+                    <person xml:id="ellenfowler">
+                        <persName ref="https://www.wikidata.org/wiki/Q5365036">Ellen Thorneycroft Fowler</persName>
+                    </person>
+                    <person xml:id="louisleipoldt">
+                        <persName ref="https://www.wikidata.org/wiki/Q669293">Louis Leipoldt</persName>
+                    </person>
+                    <person xml:id="leonardhobhouse">
+                        <persName ref="https://www.wikidata.org/wiki/Q263531">Leonard Trelawny Hobhouse</persName>
+                    </person>
+                    <person xml:id="walterhobhouse">
+                        <persName ref="https://www.wikidata.org/wiki/Q16030369">Walter Hobhouse</persName>
+                    </person>
+                    <person xml:id="williamroper">
+                        <persName ref="https://www.wikidata.org/wiki/Q141753">William Roper</persName>
+                    </person>
+                    <person xml:id="winstonchurchill">
+                        <persName ref="https://www.wikidata.org/wiki/Q8016">Winston Churchill</persName>
+                    </person>
+                    <person xml:id="thomasmore">
+                        <persName ref="https://www.wikidata.org/wiki/Q42544">Thomas More</persName>
+                    </person>
+                    <person xml:id="peterkropotkin">
+                        <persName ref="https://www.wikidata.org/wiki/Q5752">Peter Kropotkin</persName>
+                    </person>
+                    <person xml:id="wilhelmii">
+                        <persName ref="https://www.wikidata.org/wiki/Q2677">Wilhelm II</persName>
+                    </person>
+                    <person xml:id="johnmorley">
+                        <persName ref="https://www.wikidata.org/wiki/Q333519">John Morley</persName>
+                    </person>
+                    <person xml:id="arthuroshaughnessy">
+                        <persName ref="https://www.wikidata.org/wiki/Q710896">Arthur O'Shaughnessy</persName>
+                    </person>
+                    <person xml:id="johnhobson">
+                        <persName ref="https://www.wikidata.org/wiki/Q962155">John Atkinson Hobson</persName>
+                    </person>
+                    <person xml:id="emilyhobhouse">
+                        <persName ref="https://www.wikidata.org/wiki/Q1377789">Emily Hobhouse</persName>
+                    </person>
+                    <person xml:id="alfredmilner">
+                        <persName ref="https://www.wikidata.org/wiki/Q356361">Alfred Milner</persName>
+                    </person>
+                    <person xml:id="leotolstoy">
+                        <persName ref="https://www.wikidata.org/wiki/Q7243">Leo Tolstoy</persName>
+                    </person>
+                    <person xml:id="ewaldesselen">
+                        <persName ref="https://www.wikidata.org/wiki/Q25613620">Ewald Esselen</persName>
+                    </person>
+                    <person xml:id="aylmermaude">
+                        <persName ref="https://www.wikidata.org/wiki/Q4831432">Aylmer and Louise Maude</persName>
+                    </person>
+                    <person xml:id="philipsidney">
+                        <persName ref="https://www.wikidata.org/wiki/Q315509">Philip Sidney</persName>
+                    </person>
+                    <person xml:id="lilymontagu">
+                        <persName ref="https://www.wikidata.org/wiki/Q6548542">Lily Montagu</persName>
+                    </person>
+                    <person xml:id="samuelbutler">
+                        <persName ref="https://www.wikidata.org/wiki/Q312829">Samuel Butler</persName>
+                    </person>
+                    <person xml:id="alfredhousman">
+                        <persName ref="https://www.wikidata.org/wiki/Q351410">Alfred Edward Housman</persName>
+                    </person>
+                    <person xml:id="jamesboswell">
+                        <persName ref="https://www.wikidata.org/wiki/Q335060">James Boswell</persName>
+                    </person>
+                    <person xml:id="johnburns">
+                        <persName ref="https://www.wikidata.org/wiki/Q337515">John Burns</persName>
+                    </person>
+                    <person xml:id="augusterodin">
+                        <persName ref="https://www.wikidata.org/wiki/Q30755">Auguste Rodin</persName>
+                    </person>
+                    <person xml:id="leonardcourtney">
+                        <persName ref="https://www.wikidata.org/wiki/Q5612624">Leonard Courtney</persName>
+                    </person>
+                    <person xml:id="madeleinelefevre">
+                        <persName ref="https://www.wikidata.org/wiki/Q21664709">Madeleine Shaw-Lefevre</persName>
+                    </person>
+                    <person xml:id="georgianasolomon">
+                        <persName ref="https://www.wikidata.org/wiki/Q19041017">Georgiana Solomon</persName>
+                    </person>
+                    <person xml:id="martinussteyn">
+                        <persName ref="https://www.wikidata.org/wiki/Q2355196">Martinus Theunis Steyn</persName>
+                    </person>
+                    <person xml:id="margaretclark">
+                        <persName ref="https://www.wikidata.org/wiki/Q5996945">Margaret Clark Gillett</persName>
+                    </person>
+                    <person xml:id="frederickkrause">
+                        <persName ref="https://id.loc.gov/authorities/names/n85212008.html">Frederick Edward Traugott Krause</persName>
+                    </person>
+                    <person xml:id="henriettafranklin">
+                        <persName ref="https://www.wikidata.org/wiki/Q18528251">Henrietta Franklin</persName>
+                    </person>
+                    <person xml:id="arthurvaughan">
+                        <persName ref="https://www.wikidata.org/wiki/Q4799891">Arthur Owen Vaughan</persName>
+                    </person>
+                    <person xml:id="filsonyoung">
+                        <persName ref="https://www.wikidata.org/wiki/Q5449215">Filson Young</persName>
+                    </person>
+                    <person xml:id="amymackarness">
+                        <persName>Amy Mackarness</persName>
+                    </person>
+                    <person xml:id="stephenhobhouse">
+                        <persName ref="https://www.wikidata.org/wiki/Q7609463">Stephen Hobhouse</persName>
+                    </person>
+                    <person xml:id="gideonscheepers">
+                        <persName ref="https://www.wikidata.org/wiki/Q13034810">Gideon Scheepers</persName>
+                    </person>
+                    <person xml:id="jansmuts">
+                        <persName ref="https://www.wikidata.org/wiki/Q214321">Jan Christiaan Smuts</persName>
+                    </person>
+                    <person xml:id="jean-baptistecolbert">
+                        <persName ref="https://www.wikidata.org/wiki/Q188971">Jean-Baptiste Colbert</persName>
+                    </person>
+                    <person xml:id="ramsaymacdonald">
+                        <persName ref="https://www.wikidata.org/wiki/Q166646">Ramsay MacDonald</persName>
+                    </person>
+                    <person xml:id="aliebadenhorst">
+                        <persName ref="https://id.loc.gov/authorities/names/no2001031837.html">Alida Badenhorst</persName>
+                    </person>
+                </listPerson>
+            </particDesc>
+            <langUsage>
+                <language ident="eng">eng</language>
+     
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change resp="#EH">
+                <date>2021-06</date>
+                <label>template created</label></change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:lang="eng" xml:id="emily-hobhouse-journal">
+
+        <body>
+           
+            
+            <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/ff52c365-2c5c-4cc6-a515-a017e7480a63" n="1v"/>
+         
+      <head>  Emily Hobhouse, her Journal</head>
+<opener><dateline>Begun Jan: 1. 1905</dateline>
+
+<address><addrLine>15 Bruton Street W.</addrLine></address></opener>
+
+
+ <div type="entry" n="01/01/1905" xml:id="Jan01">   
+     <p>
+         <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/ff52c365-2c5c-4cc6-a515-a017e7480a63" n="2r"/> Jan 1.05. Sunday, and I did my best to forget<lb/>
+                that it was New Year's day, succeeding<lb/> pretty well in this. I would not go<lb/>
+                to Church for fear of being reminded<lb/> of the fact so I took Meg for a walk<lb/>
+                in Hyde Park with her new collar on.<lb/> I was careful not to wish <persName
+                    ref="#maryhobhouse">Aunt<lb/> Mary</persName> a "happy New Year" but she<lb/>
+                was equally careful, rather formally<lb/> to wish me every kind of happiness<lb/> of
+                prosperity in my coming work.<lb/> Wishes for my personal happiness<lb/> always fall
+                hollow on my ears.</p>
+            <p><lb/> I began the day by writing to <persName ref="#charlesscott">Mr.
+                    Scott</persName><lb/> asking him if he would employ<lb/> me as paid
+                correspondent for<lb/> the Manchester Guardian in S. Africa<lb/> - my first attempt
+                at earning<lb/> my living. I realize that standing<lb/> as I now do, wholly on my
+                own<lb/> legs, &amp; that too in a far &amp; costly<lb/> land, I <hi
+                    rend="underline">must</hi> add to my income<lb/> at least £100 a year. Failing<lb/>
+                
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/b6bf9566-1b76-4fc0-906e-6322794781c4" n="2v"/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/b6bf9566-1b76-4fc0-906e-6322794781c4" n="3r"/> 
+                this, I have no hope of even an<lb/> occasional visit
+                to England.<lb/> If he refuses, I shall not know<lb/> where to turn. Having
+                always<lb/> done voluntary &amp; unpaid work<lb/> all my life, it was a very
+                hard<lb/> letter to write. I realize now to<lb/> the full how ill-advised it is
+                for<lb/> solitary women to work, as since<lb/> youth I have always worked -<lb/> for
+                others, spending thus my entire<lb/> time &amp; strength, so that I have<lb/> never
+                qualified myself to <hi rend="underline">earn</hi><lb/> a <hi rend="underline"
+                    >living</hi>. I hold it is every<lb/> woman's duty to provide for herself<lb/>
+                first, gaining a home &amp; a footing<lb/> &amp; <hi rend="underline">then</hi> she
+                is at liberty to spend<lb/> &amp; be spent for her family &amp; the<lb/> world at
+                large.<lb/></p>
+
+<p>I spent the afternoon at my usual<lb/>
+
+work of correspondence &amp; the<lb/>
+
+evening with <persName ref="#maryhobhouse">Aunt Mary</persName>.<lb/></p>
+</div>
+<div type="entry" xml:id="Jan02" n="02/01/1905">
+     <p>Jan:2. Monday. The first New Year's post<lb/>
+                
+
+ 
+         <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/9a4dc2f5-a852-4f3a-912b-9e6a117d62b4" n="3v"/>
+         <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/9a4dc2f5-a852-4f3a-912b-9e6a117d62b4" n="4r"/>
+
+brought me a real joy in the shape of<lb/>
+
+a letter from <persName ref="#williamwatson">William Watson</persName>. It was<lb/>
+
+in reply to me<supplied>,</supplied> I had ventured to<lb/>
+
+write to him thanking &amp; congratulating<lb/>
+
+him for his beautiful new collection<lb/>
+
+of poems just issued. Letters<lb/>
+
+such as his come now &amp; again &amp;<lb/>
+
+lift me higher &amp; are treasures to<lb/>
+
+be preserved. I shall put his<lb/>
+
+in my large album of addresses<lb/>
+
+&amp; testimonials. So on wings<lb/>
+
+I floated all day; at 5'oclock<lb/>
+
+came Dr. Bisschop to help me with<lb/>
+
+my difficulties concerning Mr. Celliers<lb/>
+
+&amp; the translation. He condemned<lb/>
+
+it utterly, and strongly deprecated<lb/>
+
+publication. He took away again<lb/>
+
+Mr. van der Post's story "Piet Uys" to<lb/>
+
+keep till it should seem advisable<lb/>
+
+to publish it.<lb/></p></div>
+            
+
+            <div type="entry" xml:id="Jan03" n="03/01/1905">
+    <p>Jan:3. <persName ref="#leonardhobhouse">Leonard</persName> wrote to <persName ref="#maryhobhouse">Aunt Mary</persName> saying<lb/>
+
+he should come to lunch to talk<lb/>
+
+over <persName ref="#arthurhobhouse">Uncle Arthur's</persName> memoir, but<lb/>
+
+
+        <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/b19f8d19-f6f8-4219-8b28-042e67378dff" n="4v"/>
+        <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/b19f8d19-f6f8-4219-8b28-042e67378dff" n="5r"/>
+
+I was engaged to lunch with <persName ref="#barbarahammond">Barbara<lb/>
+
+Hammond</persName> and so did not see him.<lb/>
+
+I started early to go round by Linden<lb/>
+
+Gardens &amp; there had a chat with<lb/>
+
+<del>Barb</del> Mrs. Bradby, but Dorothy was gone<lb/>
+
+to pack up her Aunt's belongings.<lb/>
+
+Mrs. Bradby in her own sweet way<lb/>
+
+spoke about her promised loan of<lb/>
+
+£200 for the Boers and Miss Mayo's<lb/>
+
+£300. I suggested she would give<lb/>
+
+me a cheque to pay in myself to<lb/>
+
+the Standard Bank.<lb/></p>
+
+<p>Then Mrs. Chitty &amp; Christopher walked<lb/> with me across Kensington Gardens<lb/> to Sloane
+                St. &amp; she promised to send<lb/> me the gift of saucepans.</p>
+            <p><lb/> I took bus to Battersea &amp; walked<lb/> over the Park to <persName
+                    ref="#barbarahammond">Barbara's</persName>. Dry &amp;<lb/> cold. Her electric
+                bell had gone wrong of<lb/> course, but after some delay she herself<lb/> came to
+                the door looking radiant in<lb/> health &amp; beauty. We had lunch alone<lb/> &amp;
+                a nice chat till 3pm. Chiefly<lb/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/6f5f024b-1a3f-4b22-ad9f-e1f6edc8ff29" n="5v"/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/6f5f024b-1a3f-4b22-ad9f-e1f6edc8ff29" n="6r"/> outlining my plans &amp; prospects but<lb/> partly
+                about her work for the Speaker.<lb/> Metherell fetched me in the carriage<lb/> &amp;
+                on the way home I called at Lady<lb/> Osborne Morgan's (out of town) &amp; <persName
+                    ref="#amymackarness">Mrs.<lb/> Mackarness</persName> (not at home). Got soap
+                and<lb/> plate powder, after trying 3 chemists,<lb/> and to home.<lb/></p>
+</div>
+            
+<div type="entry" xml:id="Jan04" n="04/01/1905">
+    <p>Jan 4. School in forenoon &amp; finished my<lb/> piece of flannel - my first production.<lb/>
+                every process from the lamb's back<lb/> being done by myself. Miss Grasett<lb/> kind
+                &amp; helpful as usual.</p>
+            <p><lb/> Expected Dorothy at 2.30 but an<lb/> express note from Mrs. Chitty to say<lb/>
+                she was too unwell &amp; could I go<lb/> there. <persName ref="#maryhobhouse">Aunt
+                    Mary</persName> dropped me there<lb/> in the carriage, Meg struggling much<lb/>
+                - and we discussed a list to send<lb/> Lady C. Toler for circulation of my<lb/>
+                letters.<lb/></p>
+
+<p>I bought some black chiffon fichus<lb/> &amp; hurried home to meet <persName ref="#frederickkrause">Dr. Krause</persName><lb/>
+    <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/ad292f28-767b-4915-b949-80b5c9d343db" n="6v"/>
+    <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/ad292f28-767b-4915-b949-80b5c9d343db" n="7r"/> due at 5pm. He spoke of his mother's<lb/> death and of
+                his own prospects<lb/> being in London for rehabilitation<lb/> at the bar.
+                Especially he told<lb/> me of Miss König a Boer girl on<lb/> her way back from a
+                missionary<lb/> training in Chicago and desirous<lb/> of devoting her life to her
+                people.<lb/> He thought she would help me.</p></div>
+            
+            <div type="entry" xml:id="Jan05" n="05/01/1905"><p><lb/> Jan 5. <hi rend="underline">Thursday</hi> School in the forenoon<lb/> testing
+                various spinning wheels<lb/> &amp; winders wh: Campbell had<lb/> mended. At
+                lunchtime came<lb/> Campbell with a message to<lb/> say that the looms had
+                arrived<lb/> from Norway and <unclear reason="illegible">had</unclear> been<lb/>
+                sent of the kind that would<lb/> not take to pieces. A great blow.<lb/> Next
+                nuisance the small carpenter<lb/> came with a heavy box for<lb/> my light wheel
+                instead of an<lb/> open crate. Lunch swallowed.<lb/> I rushed up to the school where<lb/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/a0b598ea-54ac-4226-a81f-28a5a0d6aac7" n="7v"/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/a0b598ea-54ac-4226-a81f-28a5a0d6aac7" n="8r"/> stood the three great looms in the<lb/> narrow gangway
+                &amp; Miss Grasett<lb/> in grief. Dreadful bore! But she<lb/> was so concerned &amp;
+                helpless that<lb/> I felt bound to give way &amp; take<lb/> them, though it will add
+                to<lb/> the cost of carriage &amp; inconvenience<lb/> in S. Africa. Decision had
+                to<lb/> be instant &amp; so off they went<lb/> to the docks. Afterwards I<lb/>
+                regretted I had not sent them<lb/> straight back to Finland, for<lb/> the other kind
+                had been<lb/> ordered. </p><p>Mrs. Tristram came<lb/> to work &amp; fit dresses all
+                the<lb/> afternoon - At 8 o'clock I to<lb/> dine with <persName ref="#amymackarness"
+                    >Mrs. Mackarness</persName> alone<lb/> for a chat. This was very<lb/> enjoyable
+                &amp; she told me all about<lb/> their difficulties in making two<lb/> ends meet and
+                her arrangements<lb/> to sell the house &amp; move into<lb/> a cheaper quarter. But the<lb/>
+                    <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/90c3aa31-d3b9-4647-ba92-5ecad949324f" n="8v"/>
+                    <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/90c3aa31-d3b9-4647-ba92-5ecad949324f" n="9r"/> plan was frustrated &amp; she retains<lb/> her
+                beautiful home.</p>
+            <p><lb/> Came home in a cab clutching my 1/-<lb/> which fell as I stepped out,
+                evidently<lb/> in the cab as it made no clink.<lb/> I opened the door to light the
+                candle<lb/> to search for it when down jumped<lb/> cabby &amp; with his lantern
+                forestalled<lb/> me. I could not find it but<lb/> from his manner I am quite<lb/>
+                sure <hi rend="underline">he</hi> did, but I had to go<lb/> in and fetch another
+                shilling.</p></div>
+            
+<div type="entry" xml:id="Jan06" n="06/01/1905">
+    <p>
+        <lb/>
+                <hi rend="underline">Jan 6. Friday.</hi> Bad news from <persName ref="#maudhobhouse"
+                    >Maud</persName> that<lb/> she had gone to Wimbledon to<lb/> appeal to <persName
+                    ref="#leonardhobhouse">Leonard</persName> to speak to <persName
+                    ref="ernesthebblethwaite">Ernest</persName>.<lb/> In the afternoon she &amp;
+                    Nora came<lb/> &amp; she stayed a few
+                hours &amp; told<lb/> me the ins &amp; outs. I feel sure<lb/> he is quite insane.
+                She was calm<lb/> &amp; firm, her self reliance having<lb/> developed. We had tea with<lb/>
+                <persName ref="#maryhobhouse">Aunt Mary</persName> &amp; I showed her the<lb/>
+                clothes set aside for her which<lb/> pleased her. She returned to Wimbledon</p>
+</div>
+            
+            
+            <div type="entry" xml:id="Jan07" n="07/01/1905"><p><lb/>
+            
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/b4810578-d188-4da6-ac3e-870696de70d9" n="9v"/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/b4810578-d188-4da6-ac3e-870696de70d9" n="10r"/>
+                <hi rend="underline">Jan:7. Saturday</hi> I went with <persName ref="#maryhobhouse"
+                    >Aunt Mary</persName><lb/> to Lincoln's Inn Fields to get H.<lb/> Farrer to help
+                her sign the paper<lb/> setting out money for the death<lb/> duties. We met Harry
+                Farrer<lb/> first outside &amp; he took us to<lb/> his room. Very handsome. The<lb/>
+                old house of the Dukes of Newcastle<lb/> doors &amp; ceilings very ornamented.<lb/>
+                We drove home by the Embankment<lb/> noting how high the river was<lb/> &amp; how
+                the muddy water stood<lb/> along the streets. In the afternoon<lb/> I to the
+                New Gallery to the Private<lb/> view
+                but found I had mistaken<lb/> the hour &amp; it was an <hi rend="underline"
+                    >evening</hi><lb/> affair. So came back &amp; wrote<lb/> as usual. At dinner
+                    <persName ref="#maryhobhouse">Aunt<lb/> Mary</persName> very full of some 60
+                &amp; 40 year<lb/> old letters she had been reading<lb/> &amp; after dinner
+                continued the<lb/> same to me till I found it time<lb/> to go to the <placeName
+                    ref="#newgallery">New Gallery</placeName>. Fine<lb/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/bc234d0a-842b-41dc-8b2c-f21e8595a433" n="10v"/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/bc234d0a-842b-41dc-8b2c-f21e8595a433" n="11r"/> night so walked there &amp; found a<lb/> great crowd.
+                Spent most of my<lb/> time with Dr. Bisschop &amp; his Dutch<lb/> friend Mr.van
+                Stoffelaar who pointed<lb/> out the etchings of the Dutch Maris<lb/> &amp; the
+                wonderfully interesting sculpture<lb/> of <persName ref="#augusterodin">A.
+                    Rodin</persName>
+                "La main de Dieu".<lb/> Saw also the Hammonds and<lb/> Holroyds and
+                Scott-Skirvings &amp;<lb/> Julia &amp; Rosamund. Walked home<lb/> alone.</p></div>
+            
+ 
+            <div type="entry" xml:id="Jan08" n="08/01/1905"><p><lb/>
+                <hi rend="underline">Jan: 8. Sunday</hi>. Away early to Wimbledon<lb/> to hear the
+                news about <persName ref="#maudhobhouse">Maud</persName>.<lb/> Walking to Waterloo
+                via Hungerford<lb/> Bridge &amp; from Wimbledon Station to<lb/>
+                <persName ref="#leonardhobhouse">Leonard's</persName> house. He told me all<lb/>
+                about his interview with <persName ref="#ernesthebblethwaite">Ernest</persName><lb/>
+                &amp; how he found him merrily<lb/> playing at badminton, quite<lb/> callous. After
+                bluster &amp; blabbering<lb/> he got him to sign a paper<lb/> agreeing to all the
+                points which<lb/>
+                <persName ref="#maudhobhouse">Maud</persName> laid down as essential<lb/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/c9339bea-0047-4d11-a1ce-b9e21c5f0cf0" n="11v"/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/c9339bea-0047-4d11-a1ce-b9e21c5f0cf0" n="12r"/> 1 The privacy of her correspondence<lb/> 2 Indecency
+                of his own attire and<lb/> so invading the children's rooms<lb/> &amp; paying no
+                heed to Constance's<lb/> desire for privacy &amp; propriety.<lb/> 3 Yelling about
+                the house in<lb/> the mornings<lb/> 4 Not to invite people to the<lb/> house at all
+                hours unknown<lb/> to her.<lb/> 5 To be civil to guests who it<lb/> is agreed should
+                come.<lb/> 6 That she should be final<lb/> referee in matters concerning<lb/> the
+                children</p>
+            <p><lb/> These points he signed<lb/> but <persName ref="#leonardhobhouse"
+                    >Leonard</persName> hopes with the<lb/> aid of a solicitor to get him<lb/> to
+                    re<supplied>-</supplied>sign it with a sentence<lb/> attached making <persName
+                    ref="#maudhobhouse">Maud</persName> more<lb/> complete mistress of the
+                situation<lb/> in case separation becomes<lb/> necessary.</p>
+            <p><lb/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/5df4ca03-08f9-4ac3-8981-bbd23da3d203" n="12v"/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/5df4ca03-08f9-4ac3-8981-bbd23da3d203" n="13r"/> I gave <persName ref="#leonardhobhouse"
+                    >Leo</persName> £1. towards his expenses<lb/> in the matter &amp; brought
+                Oliver<lb/> home to luncheon. We walked<lb/> from Waterloo to Bruton St. just
+                in<lb/> time for lunch. <persName ref="#maryhobhouse">Aunt Mary</persName> gave<lb/>
+                Oliver 5/- and the toy artist, and<lb/> stamps &amp; a puzzle to amuse<lb/> him
+                while here. At 3.30 he<lb/> left &amp; I wrote till Mrs. Macdonald<lb/> came to tea.
+                I told her all<lb/> my S.A. plans and she made<lb/> me promise to come to a
+                farewell<lb/> meeting at her house to speak<lb/> to people of the scheme.</p>
+            <p><lb/>
+                <persName ref="#walterhobhouse">Walter Hobhouse</persName> came to see<lb/>
+                <persName ref="#maryhobhouse">Aunt Mary</persName> &amp; told her his anxiety<lb/>
+                about the Guardian &amp; the money<lb/> influences at work upon the<lb/> press. We
+                dined alone with<lb/> Meg &amp; our usual avocations in<lb/> the evening.</p></div>
+            
+            
+            <div type="entry" xml:id="Jan09" n="09/01/1905"><p><lb/>
+                <hi rend="underline">Jan 9. Monday</hi> A letter from Mr. Lyttelton<lb/> telling me
+                what I knew before<lb/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/4f3e31e8-3d48-44c5-998a-7e0082b967d6" n="13v"/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/4f3e31e8-3d48-44c5-998a-7e0082b967d6" n="14r"/> viz that <persName ref="#alfredmilner">Lord
+                    Milner's</persName> report<lb/> had come &amp; that he saw no<lb/> reason to
+                reconsider the cases<lb/> which I have applied for.<lb/> It was just because the
+                Boers<lb/> had exhausted every official<lb/> line in S.A. that they had,
+                through<lb/> me, referred their cases to<lb/> the Home Government! <hi
+                    rend="underline">Hopeless</hi>.</p>
+            <p><lb/> I went to Elliott's to get easy boots<lb/> &amp; shoes &amp; thence to enquire
+                in<lb/> Linden Gardens - Mrs. Bradby in<lb/> bed with acute bronchitis, Dorothy<lb/>
+                with bronchial catarrh, Christopher<lb/> with asthma, Letitia just<lb/> emerging
+                from a cold &amp; Mrs. Chitty<lb/> nursing them all. Pouring rain.<lb/> After lunch
+                asked <persName ref="#walterhobhouse">Walter</persName> to<lb/> clean my silver and
+                spent an<lb/> hour greasing &amp; tying up my<lb/> bicycle. <persName
+                    ref="#margaretclark">Margaret Clark</persName> came<lb/> to tea &amp; then wrote
+                letters for me.<lb/> We drafted one to Mr. Lyttelton and<lb/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/a84aba46-40fe-4ef9-8aa1-0a99fc4deeec" n="14v"/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/a84aba46-40fe-4ef9-8aa1-0a99fc4deeec" n="15r"/> sent one to <persName ref="#arthurvaughan">Captain
+                    A.O. Vaughan</persName> with<lb/> the cutting about Lily Boshoff from the
+                M.G.<lb/> May he reply! <note type="gloss" place="margin">He never did <persName ref="#emilyhobhouse">E.H.</persName>
+                    1925</note> Worked till 7.45 &amp;<lb/> she away to her club &amp; I to dress
+                for<lb/> dinner. Quiet evening reading &amp; sewing.<lb/>
+                <persName ref="#peterkropotkin">Kropotkin</persName> on Russian Constitution
+                &amp;<lb/> "Elements of Dyeing".</p></div>
+            
+            <div type="entry" xml:id="Jan10" n="10/01/1905"><p><lb/>
+                <hi rend="underline">Tuesday Jan 10</hi>
+                <persName ref="#margaretclark">M. Clark</persName> at 9.30 &amp; together<lb/> we
+                shopped at Debenham's sale, she<lb/> buying coat &amp; skirt &amp; I summer
+                gloves.<lb/> At 11 I was due at Fifields in Fleet<lb/> Street where I found a very
+                young<lb/> man in a small but plucky<lb/> way of business. We discussed the<lb/>
+                pros &amp; cons of publication of Boer<lb/> diaries - <hi rend="underline">he</hi>
+                can't afford it - &amp; as<lb/> 5000 copies would cost me £35 to<lb/> put out I
+                doubt if I shall ever<lb/> be able to do it. Must consider<lb/> &amp; consult
+                Stellenbosch. Left him &amp;<lb/> walked up Fetter Lane looking<lb/> for
+                    <unclear>Heatylers</unclear> but found it not.<lb/> Bought a will form in Oxford St.<lb/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/044a8ea9-e4a9-4c36-a7a7-3c30aebf080f" n="15v"/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/044a8ea9-e4a9-4c36-a7a7-3c30aebf080f" n="16r"/> &amp; so by bus to <unclear>Biebers</unclear> where
+                asked<lb/> them to find "Berthollet" second hand<lb/> for me. Home &amp; there found
+                Lord Farrer<lb/> at the door &amp; Julia who came in<lb/> had a chat with me about
+                our<lb/> affairs &amp; probability of <persName ref="#maryhobhouse">Aunt
+                    Mary</persName><lb/> wishing for her companionship.</p>
+            <p><lb/> Lunch &amp; to drive with <persName ref="#maryhobhouse">Aunt M.</persName>
+                Getting<lb/> out at <unclear>Days</unclear> for novels to send her to sleep<lb/>
+                &amp; in K. Gardens to exercise Meg and at<lb/> Kensington Church to look at the
+                marble<lb/> tablets all round the walls. I was dropped<lb/> in Oxford St. &amp; went
+                to buy a stamp<lb/> damper for <persName ref="#maryhobhouse">Aunt Mary</persName>,
+                who suffers<lb/> from parched mouth. So home &amp;<lb/> much letter writing,
+                especially about<lb/> Mr. Celliers &amp; his tiresome translation.</p>
+            <p><lb/> A telegram from <persName ref="#louisleipoldt">Mr. Leipoldt</persName>
+                saying<lb/> he could not come to say goodbye &amp;<lb/> so I let the fire go out
+                &amp; having written<lb/> as much as my hand would<lb/> let me went upstairs to
+                pack<lb/> odds and ends. Quiet tête à tête<lb/></p>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/b3d573c6-c827-48ae-b57e-2f14010c7b4f" n="16v"/>
+               <p>believe she did</p>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/b3d573c6-c827-48ae-b57e-2f14010c7b4f" n="17r"/><p> dinner and then reading &amp; work. Began<lb/> a
+                stupid novel of <persName ref="#ellenfowler">Ellen T. Fowler's</persName> "Kate
+                of<lb/> Kate Hall". Took it to bed and read<lb/> for an hour.</p></div>
+            
+            <div type="entry" xml:id="Jan11" n="11/01/1905"><p><lb/>
+                <hi rend="underline">Wednesday Jan 11.</hi> Bright morning. After<lb/> breakfast to
+                do remaining purchases -<lb/> paints - stocking blocks - umbrella cover<lb/> &amp;
+                receipt book. Very pleasant walking.<lb/> Coming back met Julia &amp; Lucy with<lb/>
+                an umbrella they had taken yesterday.<lb/> Told them it was Lord Farrer's.</p>
+            <p><lb/> Found <persName ref="#maryhobhouse">Aunt Mary</persName> determined on a
+                drive<lb/> &amp; I read the Times to see what <persName ref="#alfredmilner"
+                    >Milner</persName><lb/> is doing about a Transvaal Constitution.<lb/> She home
+                late to lunch when I found<lb/> she had actually been to Hampstead<lb/> &amp; her
+                face bore marks of tears.<lb/> I wonder if she went into the chapel<lb/> &amp;
+                Columbaria to see <persName ref="#arthurhobhouse">Uncle Arthur's</persName><lb/>
+                urn<note type="gloss" place="margin">believe she did [note from folio 16v]</note>. Afternoon I to buy a good<lb/> waterproof at
+                Burberry's but could<lb/> not decide at once and returned<lb/> empty. Sales on
+                everywhere.</p>
+            <p><lb/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/eef56eef-67fd-4b2b-a946-edfb9a6cbf6e" n="17v"/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/eef56eef-67fd-4b2b-a946-edfb9a6cbf6e" n="18r"/> Worried for hours writing &amp; re-writing
+                letters<lb/> to Mr. Celliers &amp; Dr. de Jonge. Must refuse<lb/> but do not want to
+                offend. Tired out<lb/> I went up early &amp; got lumbering Annie<lb/> to wash my
+                head which she did very<lb/> badly &amp; uncomfortably. Dined tête à tête<lb/> as
+                usual &amp; read old letters after dinner<lb/> &amp; worked. In bed read one of
+                George MacDonald's<lb/> fairy stories - pretty.</p></div>
+            
+            <div type="entry" xml:id="Jan12" n="12/01/1905"><p><lb/>
+                <hi rend="underline">Jan:12</hi> Thursday. Large frost. Bright morning<lb/> went in
+                as usual to visit <persName ref="#maryhobhouse">Aunt Mary</persName><lb/> in bed -
+                she had a good night. Meg as<lb/> usual on the coverlet. Lady Farrer<lb/> announced
+                she would call - so I hurried<lb/> off to Burberry's to decide finally about<lb/>
+                the cloaks &amp; found the decision<lb/> simplified by the fact that nearly<lb/> all
+                the garments were too small for<lb/> me. Chose a 4½ guinea long Juverners<lb/> &amp;
+                got it at sale price £2.2.0. Cheap.<note type="gloss" place="margin"><hi
+                        rend="underline">Still have it 1925</hi></note><lb/> Called for my umbrella
+                &amp; paid 4/-<lb/> for items recovering. Black elastic 4, 2<lb/> remnants of print
+                4/- stamps 3/-<lb/> How money trickles away daily!</p>
+            <p><lb/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/82947488-20da-4db8-9b20-7d6311364c1a" n="18v"/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/82947488-20da-4db8-9b20-7d6311364c1a" n="19r"/> Home &amp; <persName ref="#maryhobhouse">Aunt
+                    Mary</persName> asked me to take<lb/> off her hands the distribution of
+                    <persName ref="#arthurhobhouse">Uncle<lb/> Arthur's</persName> remaining clothes
+                - which I<lb/> promised to do, and she sipped her<lb/> beef tea. Lady Farrer
+                appeared at 12.30<lb/> and she &amp; I had long talks of my plans<lb/> - good
+                generous soul she insisted on<lb/> giving me £100 to relieve anxiety &amp;<lb/> give
+                personal ease during the year.<lb/> Perhaps a little more salary for<lb/>
+                Sister Adeline &amp; good food &amp;
+                servant &amp;c.<lb/> Very very kind. We lunched together<lb/> all three &amp; then I
+                went on with my<lb/> endless letters wh: are wedged in<lb/> between everything till
+                she came to<lb/> say goodbye &amp; tell me that <persName ref="#maryhobhouse">Aunt
+                    Mary</persName><lb/> had asked her to come &amp; stay when<lb/> I was gone. I
+                was glad. So out<lb/> with Meg to the school to ask if<lb/> my cases done. The 4
+                cases finished<lb/> &amp; off. Miss Grasett said the big one<lb/> must be opened on
+                the address<lb/> side, it contains about 9 or 10 wheels.<lb/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/12be29cc-4f78-49d7-b33d-d9f1cdca1b36" n="19v"/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/12be29cc-4f78-49d7-b33d-d9f1cdca1b36" n="20r"/> Hope I may remember. The school looked<lb/> empty
+                without my belongings.<lb/> Home by Grosvenor St. to give Meg a<lb/> run, when the
+                poor blind thing nearly<lb/> fell into an open trap, &amp; my heart<lb/> was in my
+                mouth. Home &amp; looked<lb/> over <persName ref="#arthurhobhouse">Uncle
+                    A's</persName> clothes with Smith<lb/> and then interviewed the carpenter<lb/>
+                about my crate for spinning wheel<lb/> &amp; then came Miss Pretious &amp; we<lb/>
+                talked business. She gone I to my<lb/> typing &amp; letters. Mr. Rose wrote
+                asking<lb/> me to join executive of his S.A. Bulletin<lb/> Committee, but not I.</p>
+            <p><lb/> Usual quiet evening. Went through<lb/>
+                <persName ref="#arthurhobhouse">Uncle Arthur's</persName> poems with <persName
+                    ref="#maryhobhouse">Aunt M.</persName><lb/> deciding which to type.</p></div>
+            
+            <div type="entry" xml:id="Jan13" n="13/01/1905"><p><lb/>
+                <hi rend="underline">Friday Jan:13</hi> Several letters. Fine sharp<lb/> morning.
+                Wrote rapidly the most<lb/> necessary &amp; then to Westminster, saw<lb/>
+                <persName ref="#leonardhobhouse">Leo</persName> in his office &amp; arranged
+                with<lb/> him to come to lunch &amp; chose<lb/> what clothing was suitable.<lb/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/956c91d0-9e00-4e16-9288-00a12a438287" n="20v"/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/956c91d0-9e00-4e16-9288-00a12a438287" n="21r"/> On to Army &amp; Navy Stores where I had the<lb/>
+                difficulty of choosing a tea &amp; lunch<lb/> basket - to serve me &amp; the
+                others.<lb/> Got a beauty much reduced for £3.5.0<lb/> a good deal, but it will last
+                to<lb/> the end of life. And it wasn't<lb/> perfect at that. They <hi
+                    rend="underline">cannot</hi> tell<lb/> what travellers really want.</p>
+            <p><lb/> Home by bus &amp; after a chat with<lb/>
+                <persName ref="#maryhobhouse">Aunt Mary</persName> to look over <persName
+                    ref="#arthurhobhouse">Uncle A's</persName><lb/> clothes by daylight. Sorted
+                what<lb/> would suit <persName ref="#leonardhobhouse">Leo</persName>. Then I began
+                to<lb/> pack my big box - a great work.<lb/> Lunch &amp; <persName
+                    ref="#leonardhobhouse">Leo</persName> full of chat about<lb/> politics. He was
+                going to a dinner<lb/> to <persName ref="#winstonchurchill">Winston
+                    Churchill</persName> who all think<lb/> clever &amp; useful to the party
+                though<lb/> ill-mannered, &amp; ill-healthed and<lb/> probably not to be trusted.
+                    <persName ref="#johnmorley">Mr. Morley</persName><lb/> had told him he was
+                impressed<lb/> by his having the "political mind"<lb/> as few have. We discussed<lb/>
+                <persName ref="#walterhobhouse">Walter Hobhouse's</persName> resignation of the<lb/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/3da007a2-f671-4e47-8c4f-ffcf01f8d04b" n="21v"/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/3da007a2-f671-4e47-8c4f-ffcf01f8d04b" n="22r"/> editorship of the "Guardian" &amp; this brought<lb/>
+                us to dwell upon the serious condition<lb/> of the press. J.B. Atkins London
+                editor<lb/> of the M.G. had first been brought<lb/> over by the newly manned
+                "Standard"<lb/> who doubled his salary to be<lb/> their Foreign editor in Paris.</p>
+            <p><lb/>
+                <persName ref="#filsonyoung">Mr. Filson Young</persName> is turned out of<lb/> the
+                Outlook. <persName ref="#leonardhobhouse">Leo</persName> fairly hopeful<lb/> that
+                    <persName ref="#maudhobhouse">Maud</persName> would have some<lb/> months of
+                relief - but said the<lb/> solicitor thought <persName ref="#ernesthebblethwaite"
+                    >E.</persName> mad.</p>
+            <p><lb/> We went upstairs &amp; settled matters<lb/> about <persName
+                    ref="#arthurhobhouse">Uncle A's</persName> memoirs and then<lb/> downstairs
+                where <persName ref="#leonardhobhouse">L.</persName> chose the<lb/> clothing he
+                needed. He away &amp; I<lb/> to my letters till <persName ref="#maryhobhouse">Aunt
+                    Mary</persName> took<lb/> me out with her to go to get the<lb/> poems &amp;
+                extracts typed at Reilly's.<lb/> I was then put down in the<lb/> Park &amp; walked
+                to Linden Gardens<lb/> where I found the 4 sisters never<lb/> seen together before. E.D.B. <supplied>Eliza Dorothy Bradby</supplied> recovering<lb/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/ecfc8406-6c05-43d5-8f18-9b347c7d2d45" n="22v"/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/ecfc8406-6c05-43d5-8f18-9b347c7d2d45" n="23r"/> but weak. Mrs. B. still very ill. Coming<lb/> home in
+                the Tube, it <hi rend="underline">stuck</hi>, a horrid<lb/> sensation. Letters &amp;
+                usual evening.</p></div>
+            
+            <div type="entry" xml:id="Jan14" n="14/01/1905"><p><lb/> Jan:14. Saturday. Early to weaving school &amp; there<lb/> asked for final
+                bill, much less than I<lb/> expected. On to Devonshire Place to ask<lb/> Julia if
+                she would accept some vests<lb/> &amp; she said she would run down after<lb/> me
+                &amp; look at them. Then bought stamps<lb/> &amp; clasps &amp; home, Julia close
+                behind<lb/> me. Glorious spring like morning.<lb/> We sorted the clothes &amp; she
+                was very<lb/> glad of warm vests &amp; <unclear>dittos</unclear>, and<lb/> just
+                finished came the carpenter<lb/> about the bill. I showed him the<lb/> other
+                carpenter's bill less than ⅓ of<lb/> his; he very angry, but I said at<lb/> least he
+                must put down the items<lb/> that I might know what I was<lb/> paying for. They gone
+                came Lady<lb/> Agnes' carriage to the door simultaneously<lb/> with <persName
+                    ref="#maryhobhouse">Aunt M's</persName> so they talked while<lb/> the Macleod
+                girls came in &amp; I<lb/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/5a792590-74e0-4490-a3c6-9807c9e62773" n="23v"/> had to entertain them which I did<lb/> by talking of
+                    <persName ref="#arthurhobhouse">Uncle Arthur's</persName> last<lb/> days. Then I
+                settled to my packing<lb/> till lunch time, &amp; continued after<lb/> till all was
+                done. So changed my<lb/> dress and awaited Miss Trevelyan<lb/> meanwhile I had tea
+                with Lady<lb/> Jenkyns &amp; <persName ref="#maryhobhouse">Aunt Mary</persName>, but
+                when<lb/> she came we talked together &amp;<lb/> she showed me Lefebure's book on<lb/> lace. My lovely new
+                bits she<lb/> believes earliest Alençon, but if<lb/> so it must have been <hi
+                    rend="underline">very early</hi><lb/> even in <persName
+                    ref="#jean-baptistecolbert">Colbert's</persName> time when the<lb/> Burano
+                influence was still paramount.</p>
+            <p><lb/> I was very tired when she left<lb/> but read &amp; made notes of my dye<lb/>
+                books. We dined quietly and I<lb/> teased Meg for variety.</p></div>
+            
+            <div type="entry" xml:id="Jan15" n="15/01/1905"><p><lb/>
+                <hi rend="underline">Jan 15 Sunday</hi>. Very cold, high wind &amp; bright.<lb/> I
+                took Meg on rapid run in the<lb/> Green Park - she very blind - &amp; then<lb/>
+                home, typed &amp; finished me letter to<lb/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/5a792590-74e0-4490-a3c6-9807c9e62773" n="24r"/> Dr. de Jonge, it taking two hours. Such<lb/> time
+                &amp; bother has that translation<lb/> worry caused to be wasted. I had hardly<lb/>
+                finished when Lady Farrer came to have<lb/> a chat - kindly bringing me her
+                gift<lb/> for "easement" of £100 and sympathetically<lb/> desirous to hear the
+                latest news.</p>
+            <p><lb/>
+                <persName ref="#robertouthwaite">Mr. Outhwaite</persName> was shown in upon us<lb/>
+                which cut short all intimate<lb/> talk &amp; we had to go upstairs. <persName
+                    ref="#robertouthwaite">Mr. O</persName><lb/> told us much of Chinese labour
+                &amp;<lb/> of Australian persons &amp; politics &amp; the<lb/> talk turned also on
+                artesian wells<lb/> and locusts &amp; other plagues common<lb/> to S.A. and
+                Australia. I on tenterhooks<lb/> because he muttered under his<lb/> moustache &amp;
+                    <persName ref="#maryhobhouse">Aunt M.</persName> could not hear.<lb/> Before
+                they left word was brought that<lb/> Miss Thornton &amp; Miss Batchelor were<lb/>
+                downstairs &amp; to my astonishment<lb/> I found Ethel &amp; Helen. The latter<lb/>
+                told me she had just come back<lb/> from 1½ years engagement under the<lb/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/6760fd59-9b38-4ecc-9839-94b9b8959fd9" n="24v"/> Government in the Mauritius, but her usual<lb/>
+                excited form of conversation made it<lb/> impossible to gather any
+                comprehensive<lb/> story of her work there or her reasons<lb/> for leaving it.</p></div>
+            
+            <div type="entry" xml:id="Jan16" n="16/01/1905"><p><lb/>
+                <hi rend="underline">Jan:16 Monday</hi> If I forget this journal even a<lb/> day I
+                find it hard to remember the occur<lb/> -ences so bad has my memory become<lb/> for
+                details of this nature. All Sunday<lb/>
+                <persName ref="#maryhobhouse">Aunt Mary</persName> seemed unusually low.<lb/> Today
+                early I went out to settle bills<lb/> with Miss Grasett whose charges are<lb/>
+                absurdly moderate &amp; <unclear>Argand</unclear> &amp; Bright<lb/> who charged 5/6
+                for making a <unclear>6</unclear> tin<lb/> vessel for holding the methylated
+                spirits<lb/> of my tea basket, then came Penhale's<lb/> absurd bill of just £5 for
+                making<lb/> 3 small packing cases &amp; carding two<lb/> packages. I hurried home in
+                time<lb/> to receive <persName ref="#maudhobhouse">Maud</persName> &amp; we had a
+                long talk<lb/> on her affairs. She fears from a letter<lb/> just received that he
+                means to go <lb/> back from the agreement he signed with <persName
+                    ref="#leonardhobhouse">Leonard</persName><lb/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/6760fd59-9b38-4ecc-9839-94b9b8959fd9" n="25r"/> &amp; to my mind it shows the uselessness<lb/> of
+                expecting such an agreement will be<lb/> kept by a man <hi rend="underline">not in
+                    his senses</hi>.</p>
+            <p><lb/>
+                <persName ref="#maudhobhouse">Maud</persName> would have stayed to lunch &amp;<lb/>
+                have talked over my plans &amp; future<lb/> possibilities with me - but Nora wired<lb/> her to meet her at Charing X
+                station to<lb/> go with her to a restaurant lunch &amp; a<lb/> theatre. A great
+                pity, so lost my only<lb/> opportunity of a good talk with <persName
+                    ref="#maudhobhouse">Maud</persName>.</p>
+            <p><lb/>
+                <persName ref="#henryhobhouse">H.H.</persName> &amp; <persName
+                    ref="#stephenhobhouse">Stephen</persName> arrived to lunch, leaving<lb/> hastily
+                for a meeting &amp; then I had just<lb/> settled down to write my will when<lb/>
+                Arthur H. came &amp; stayed a half hour.<lb/> I set to work again but then
+                arrived<lb/> the Express man to take away my boxes<lb/> to precede me to the ship
+                &amp; ere the<lb/> man left Mrs. Lecky called. After a<lb/> few minutes with that
+                very depressed<lb/> widow (of 2 years standing) I took her<lb/> to <persName
+                    ref="#maryhobhouse">Aunt Mary</persName> with a hint not to be<lb/> emotional
+                &amp; came down to find <persName ref="#frederickkrause">Dr. Krause</persName><lb/>
+                just arrived. I read him my letters<lb/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/891c93b9-a59a-42b2-a17f-0f7d51c50531" n="25v"/> to Dr de Jonge &amp; Mr. Celliers finally
+                refusing<lb/> the translation but could not quite<lb/> make out his feeling about
+                them. He<lb/>
+                <hi rend="underline">said</hi> they were allright, both firm and<lb/> considerate,
+                but I am not sure he<lb/>
+                <hi rend="underline">thought</hi> so. So I am going thro' them<lb/> again carefully.
+                Our talk fell upon<lb/>
+                <persName ref="#pakeman">Pakeman's</persName> article in the Chronicle that<lb/>
+                morning &amp; <persName ref="#frederickkrause">Dr. K</persName> amused me with
+                stories<lb/> of his past. It appears <hi rend="underline">he</hi>, <persName ref="#frederickkrause">Dr. K</persName> in his<lb/>
+                capacity of public prosecutor arrested<lb/>
+                <persName ref="#pakeman">Pakeman</persName> for high treason in the pre-war<lb/>
+                days. Feeling sorry to have to put a man<lb/> of his position in prison, &amp; there
+                being no<lb/> bail for high treason, he got it reduced to<lb/> some offence under
+                the Press Laws(?) &amp;<lb/> took bail for £500 &amp; two sureties.<lb/> But Pakeman
+                escaped over the border<lb/> leaving his two sureties to pay which<lb/> they did. He
+                told me also of the way<lb/> in which he <note type="gloss" place="above"
+                    >Pakeman</note> sent the false cables<lb/> from Johannesburg which poisoned<lb/>
+                public opinion here before the war.<lb/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/891c93b9-a59a-42b2-a17f-0f7d51c50531" n="26r"/> as these cables would have been stopped<lb/> in
+                Johannesburg by <persName ref="#frederickkrause">Dr. Krause</persName> - they<lb/>
+                were all sent by <hi rend="underline">private</hi> hand by<lb/> mail every night
+                over the <sic>boarder</sic> (some<lb/> 12 hours) to Newcastle &amp; thence
+                cabled<lb/> unobserved. One of these packets fell<lb/> into his hands, and he
+                discovered<lb/> the system. Dr. Bisschop joined us<lb/> and we discussed the future
+                of the<lb/> country now that (as he said!) the<lb/> gold miners had
+                consolidated.<lb/></p>
+            <p>Quiet evening. <persName ref="#maryhobhouse">Aunt Mary</persName> very tired<lb/> but
+                roused herself to a game of<lb/> piquet with <persName ref="#henryhobhouse"
+                    >H.H.</persName> I sat up late<lb/> working &amp; afterwards could not
+                sleep.</p></div>
+            
+            <div type="entry" xml:id="Jan17" n="17/01/1905"><p><lb/> Jan:17. Tuesday. Several letters. Mr. Trotter<lb/> announcing that he would
+                call for me<lb/> in his motor at 10.30. Read the Chronicle<lb/> (deadly dull) &amp;
+                finished my morning<lb/> correspondence &amp; awaited him. Asked<lb/>
+                <persName ref="#henryhobhouse">Henry</persName>
+                <del>if</del> what one must do in face of<lb/> an exorbitant bill. He says - one
+                can<lb/> refuse to pay it &amp; make an offer.<lb/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/ebf849db-9512-49f2-9895-c216402e3b49" n="26v"/> it is the man's place if he chooses to<lb/> put it
+                into court &amp; then a magistrate<lb/> decides if it is an unfair demand.<lb/> One
+                is not, until then, legally<lb/> bound to pay an unreasonable bill.</p>
+            <p><lb/> When Mr. Trotter came, to Linden<lb/> Gardens where I found D. <supplied>Dorothy</supplied> in bed, but<lb/>
+                looking very well - would not be persuaded,<lb/> even with the carriage, to
+                attend<lb/> the Committee. Mrs. Bradby getting<lb/> better. Then to Hampstead to
+                pay<lb/> final respects to Mr. Maurice, but<lb/> both out. So home &amp; to
+                lunch,<lb/> taking only 20 minutes from Hampstead.<lb/> I had time to call for my
+                shoes<lb/> write more notes &amp; mend my<lb/> black silk gown before lunch.</p>
+            <p><lb/> After lunch in the Victoria to<lb/>
+                <persName ref="#amymackarness">Mrs. Mackarness's</persName> to the Committee<lb/> 2
+                members ill so only 4 of us.<lb/> Mr. Gooch clear &amp; kind but hurried<lb/> and
+                looking very ill. I was glad to get<lb/> it over &amp; to know we had £1100 odd at our<lb/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/ebf849db-9512-49f2-9895-c216402e3b49" n="27r"/> backs. Miss P. was to retain Hon Treasurship<lb/>
+                &amp; a new secretary was to be found. <persName ref="#amymackarness">Mrs.
+                    Mackarness</persName><lb/> looking uncommonly young &amp; fresh in black<lb/>
+                with a fichu of soft green silk. I walked<lb/> home, it being lovely weather though
+                cold, &amp;<lb/> got through much writing before dinner.</p>
+            <p><lb/> Sir Wm. Farrer dined, thus making 4, and so<lb/> we sat downstairs - but unfortunately<lb/>
+                <persName ref="#louisleipoldt">Mr. Leipoldt</persName> chose this evening to call
+                to<lb/> say goodbye &amp; so had to be shown into<lb/> drawing room where I had to
+                see<lb/> him while I knew they were wanting<lb/> a 4th hand at whist. He thinks
+                of<lb/> Venice for his holiday and so I could<lb/> supply him with pension
+                addresses. He<lb/> approved the tone of my replies to Mr.<lb/> Celliers &amp; Dr. de
+                Jonge &amp; at last I have summoned<lb/> courage to send the letters &amp; return
+                the<lb/> M.S. I hope this may end a tiresome<lb/> business.</p></div>
+            
+            <div type="entry" xml:id="Jan18" n="18/01/1905"><p><lb/>
+                <hi rend="underline">Wednesday Jan 18</hi> The days slip past &amp; now<lb/> but six
+                are left. I wonder what will come<lb/> of it all - if we shall succeed - or if<lb/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/4b52bdb6-f4e3-4ac6-b5df-d68d3eda2ed9" n="27v"/> only failure will result. Kind letters have<lb/> come
+                to me from Mr. Bryce, Bishop of<lb/> Hereford <note place="above" type="gloss"
+                        ><persName ref="#peterkropotkin">Prince Kropotkin</persName></note> and
+                others. I go on as it were<lb/> seeing clearly only one step, not knowing<lb/> if it
+                will eventually entail a permanent<lb/> life in S. Africa. This, if it comes
+                about,<lb/> can't be done on my present income<lb/> the utmost limits of which I
+                now<lb/> know - but I <hi rend="underline">must</hi> add about<lb/> £100 a year to
+                it, or I shall be an exile<lb/> complete. <persName ref="#charlesscott">Mr.
+                    Scott’s</persName> answer has<lb/> come refusing my offer to be
+                correspondent<lb/> for them, tho' welcoming occasional<lb/> articles - not of course
+                at all the<lb/> same thing. Perhaps eggs &amp; poultry<lb/> would pay, or sometimes
+                I wonder<lb/> if I could succeed with sketches<lb/>
+                <unclear>but</unclear> where sell them?</p>
+            <p><lb/> Mr. Trotter came &amp; I thought of motoring<lb/> with him to Bromley there to
+                call on<lb/>
+                <persName ref="#peterkropotkin">Prince Kropotkin</persName> &amp; leave him
+                    <persName ref="#leonardhobhouse">Leo's</persName><lb/> book as an offering
+                during his<lb/> convalescence. But it grew a little<lb/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/4b52bdb6-f4e3-4ac6-b5df-d68d3eda2ed9" n="28r"/> too late &amp; he dared not venture; I was<lb/> sorry
+                - so to Battersea where I left my<lb/> newspaper cutting books for the Hammonds<lb/>
+                who were not at home. So called on the<lb/> Courtneys just returned &amp; heard who
+                had<lb/> accepted for the farewell party. Home<lb/> &amp; lunch. Then determined to
+                go to Westbourne<lb/> Grove about the lace which lay heavy<lb/> on my mind as a
+                chance being lost -<lb/> found my lovely bit of old Valenciennes in<lb/> quite
+                perfect condition, also some Alençon<lb/> of different dates, both very early,<lb/>
+                and a wee edging. Turned my back<lb/> on several gems. Home just in time<lb/> to see
+                the Maurices who came to tea, as<lb/> well as Lady Elsie Northcote, and Mr.<lb/>
+                Maurice kindly brought me a farewell<lb/> offering from Joan of Arc's
+                birthplace<lb/> Domremy of a peasant made book<lb/> marker &amp; cutter with her
+                name &amp;<lb/> battle-cry. I wrote &amp; sewed till 7 o'clock<lb/> when dined alone
+                &amp; thence to Lincoln's<lb/> Inn Fields to the <persName ref="#jamesmacdonald"
+                    >J.R. Macdonald's</persName> party.<lb/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/15f57f85-0b1e-44bb-88a6-12cd3cb747e9" n="28v"/> This was interesting as usual, tho' an odd<lb/>
+                assortment of guests - but I liked talking<lb/> to <persName ref="#aylmermaude">Mr.
+                    Aylmer Maude</persName>, &amp; <persName ref="#johnhobson">Mr. J.A.
+                    Hobson</persName> both<lb/> of whom were full of chat. <persName
+                    ref="#johnhobson">Mr. Hobson</persName><lb/> warned me if I started a
+                Raiffeisen<lb/> Bank to beware lest I let <hi rend="underline">Jews</hi> have<lb/> a
+                hand in the first loan. <persName ref="#aylmermaude">Mr. Maude</persName><lb/> told
+                me much about <persName ref="#leotolstoy">Tolstoi</persName> and<lb/> Russia. I
+                spoke about ½ an hour<lb/> and then people asked questions<lb/> &amp; showed great
+                interest in various<lb/> ways. A dear little girl artist with<lb/> a winsome face
+                came &amp; talked to<lb/> me about the designing &amp; decorating<lb/> side of my
+                work. <persName ref="#lilymontagu">Lily Montagu</persName><lb/> &amp; <persName
+                    ref="#henriettafranklin">Mrs. Franklin</persName> also spoke to me<lb/> about
+                Jews in S. Africa. She has<lb/> some 12 of her club girls married<lb/> &amp; settled
+                there who correspond with<lb/> her &amp; she asked me to look them<lb/> up which I
+                promised to do if at all<lb/> in my path. I walked back with<lb/> an unknown escort
+                as far as Tottenham<lb/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/15f57f85-0b1e-44bb-88a6-12cd3cb747e9" n="29r"/> Court Road &amp; then got into a Royal Blue
+                &amp;<lb/> so home. <persName ref="#henryhobhouse">Henry</persName> not gone to bed,
+                so a few<lb/> words with him in the drawing room when<lb/> he showed me the wording
+                for <persName ref="#arthurhobhouse">Uncle<lb/> Arthur's</persName> tablet to be
+                placed in Pitcombe<lb/> Church, &amp; the verse he <note place="above" type="gloss"
+                        ><persName ref="#arthurhobhouse">Uncle Arthur</persName></note> had
+                himself<lb/> written, the sentiment of which was he<lb/> had striven to leave no
+                duty unfulfilled<lb/> &amp; to leave unstained his father's name.</p></div>
+            
+            <div type="entry" xml:id="Jan19" n="19/01/1905"><p><lb/>
+                <hi rend="underline">January 19. Thursday.</hi> Feeling poorly. To the<lb/> Bank
+                with Mr. Trotter where I dismissed<lb/> him &amp; his useful car, and there did<lb/>
+                business. I left a balance of <unclear>£100</unclear>.<lb/> I had £220 mailed to
+                S.A. but £14 of<lb/> this is Mrs. O'Grady's gift to widows,<lb/> and £50 my return
+                ticket money.</p>
+            <p><lb/> Coming home sought a felt hat &amp;<lb/> found one not very satisfactory
+                at<lb/> Liberty's. Sale going on, &amp; the saleswomen<lb/> seemed bored to death at
+                serving you<lb/> and only want to get rid of you<lb/> &amp; one simply cannot shop
+                in that<lb/> kind of bored atmosphere. Home<lb/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/cc5ff1a3-765a-41d1-8275-386a1de77a5b" n="29v"/> to lunch &amp; then <persName ref="#henryhobhouse"
+                    >H.H.</persName> stayed in the room<lb/> while Penhale's man came to
+                collect<lb/> his bills. Quite successful. I offered<lb/> £4. (even that being double
+                the right<lb/> cost) in settlement of the £4.10.6 and<lb/> it was at last done with
+                and settled.<lb/> Lady Iddesleigh<note place="above" type="gloss">Cousin Lucy</note> (young) to tea and<lb/> then finished letters &amp; accounts<lb/>
+                &amp; wrote up this journal. My work<lb/> is finished at last, and there<lb/> will
+                be rest till Philippolis is<lb/> reached. I hear the Louis Jacobiz's<lb/> are going
+                by our boat.</p></div>
+            
+            <div type="entry" xml:id="Jan20" n="20/01/1905"><p><lb/> Jan 20. Friday. Evidently <persName ref="#maryhobhouse">Aunt Mary</persName> is
+                very<lb/> weak. She is constantly so breathless &amp;<lb/> the hoarseness wh: comes
+                when she has<lb/> talked a little while is very trying to<lb/> her. But she is much
+                less deaf.<lb/></p>
+            <p>For myself I am weary of details<lb/> and sick to death of shopping, the sense<lb/>
+                of money-leakage makes me<lb/> anxious and yet I think we really<lb/> need all we
+                have bought. If I had<lb/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/cc5ff1a3-765a-41d1-8275-386a1de77a5b" n="30r"/> only known so much money would have<lb/> come in I
+                would have stuck to my<lb/> lace scheme which I still believe in<lb/>
+                <hi rend="underline">most</hi> thoroughly - &amp; it looks so simple<lb/> now beside
+                the multiplicity of other<lb/> employments. But people criticized<lb/> &amp; would
+                not believe and had I<lb/> kept to it probably the money would<lb/> not have come
+                    <add>in</add> even so well as<lb/> it has done. I ought to have stood<lb/> firm.
+                However I shall hope to do it<lb/> in the end. At moments of pause<lb/> one sees
+                mistakes so clearly. I ought<lb/> to have stuck to my own opinion -<lb/> but I can
+                now only determine still<lb/> to stick on and carry it through<lb/> finally. But how
+                much it is fair<lb/> &amp; wise to spend upon some of the<lb/> glorious samples of
+                which I now<lb/> have the chance is a serious questions.<lb/> A piece of Venetian
+                (Coraline), of Spanish<lb/> point, and of first class Alençon<lb/> now await me,
+                also a perfect specimen<lb/> of Flemish, delicate to frostwork.<lb/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/076fc6d7-2bdd-4b37-8243-caaf1d11a1c9" n="30v"/> Probably £40 would cover the whole<lb/> lot. I am
+                tempted for from them<lb/> one could work almost without<lb/> teacher. Today I paid
+                Brock 15/-<lb/> for mending my clock &amp; regulating<lb/> my watch, he holds that
+                both will<lb/> go equally well in Africa but this remains<lb/> to be seen. The
+                inquiry into the North<lb/> Sea Russian affair began in Paris &amp;<lb/> today the
+                papers give the two statements<lb/> of the case. Russia hold to the story<lb/> of
+                two torpedo boats, and I cannot<lb/> forget that the <hi rend="underline">first
+                    stories</hi> published<lb/> on our side spoke also of these.<lb/> I have a
+                sneaking belief that they<lb/> were there, but experience has made<lb/> me
+                suspicious &amp; taught me the<lb/> extraordinary things that are done<lb/> in war
+                &amp; above all lies that<lb/> are told. Will any evidence be<lb/> forthcoming?</p>
+            <p><lb/> I finished my last set of mail letters<lb/> and after lunch (rabbit pie which<lb/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/076fc6d7-2bdd-4b37-8243-caaf1d11a1c9" n="31r"/> pleased Meg), worked &amp; wrote again<lb/> till the
+                brougham came when I went<lb/> with <persName ref="#maryhobhouse">Aunt
+                    Mary</persName> to C.O.S. office in<lb/> Maida Vale - utterly useless as
+                they<lb/> would not let me do anything for her.<lb/> It will be a relief when the
+                parting is<lb/> over and the new life really begun.<lb/> With all its coming
+                hardships &amp; discomforts<lb/> it cannot be so hard &amp; difficult &amp;<lb/> so
+                utterly weary a life to live as<lb/> this one has been in spite of the <hi
+                    rend="underline">never</hi> <lb/><hi rend="underline">failing</hi> intentional
+                kindness.</p>
+            <p><lb/> In the evening came Julia Farrer &amp; stayed so<lb/> long talking that I was
+                nearly late for<lb/> the Courtneys' dinner. Indeed when I got<lb/> there the whole
+                party had assembled &amp;<lb/>
+                <persName ref="#leonardcourtney">Mr. Courtney</persName> at once took me down to
+                dinner<lb/> feeling very bashful <add>to be taken first</add> before so many<lb/>
+                married women. Were present. Gooches,<lb/> Mackarnesses, Brailsfords, Hirsts,
+                Percy<lb/> Molteno, Felix Cobbold &amp; <persName ref="#stephenhobhouse">Stephen
+                    Hobhouse</persName>.<lb/> Very interesting talk. Mr. Brailsford<lb/> telling me
+                of the Macedonian Home Industries<lb/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/06cbc616-e3ec-4044-a251-f23ba658ba03" n="31v"/> of which he afterwards showed me samples -<lb/> a
+                blanket, &amp; embroideries &amp;c. After<lb/> dinner came many others. Basil
+                Williams<lb/> Lady Farrer &amp; Gen. Noel F.S., <unclear>Guy</unclear> Pretious,
+                Miss<lb/> Griffin, Barbara, Mrs. Chitty, &amp; Mrs. J.R. Green, &amp;c.<lb/> All
+                very kind in their manifold goodbyes.<lb/> I wonder how many of them will be
+                M.Ps<lb/> before we meet again. Several are candidates.</p></div>
+            
+            <div type="entry" xml:id="Jan21" n="21/01/1905"><p><lb/>
+                <hi rend="underline">Saturday Jan: 21</hi> Up &amp; visited <persName
+                    ref="#maryhobhouse">Aunt Mary</persName> in<lb/> bed as usual, with Meg on the
+                coverlet.<lb/> The doctor came to see her &amp; Mr. Trotter at<lb/> the same moment
+                to take me to Wimbledon.<lb/> I saw that Dr. Fuller thought her very weak<lb/> and
+                ordered a tonic. Then we started<lb/> going via Battersea (where we called to
+                say<lb/> goodbye to <persName ref="#johnburns">John Burns</persName><note
+                    type="gloss" place="below">not at home</note>) thence by Clapham<lb/> Common
+                &amp; Tooting to Wimbledon. Posters<lb/> full of the budding revolution in
+                Russia.<lb/> At Wimbledon a lovely day. No one at<lb/> home, so sat an hour reading
+                Mr. Montgomery's<lb/> draft scheme for an S.A. Bank. Do not<lb/> think it will fit.
+                At last <persName ref="#leonardhobhouse">Leonard</persName> came<lb/> in from
+                skating on the Common &amp; after a<lb/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/06cbc616-e3ec-4044-a251-f23ba658ba03" n="32r"/> long chat Nora followed. He showed me<lb/> the bulky M.S. of his book of which
+                he has<lb/> now completed the draft. Lunch with<lb/> the children and then <persName
+                    ref="#leonardhobhouse">L</persName> &amp; I walked on<lb/> the Common &amp;
+                watched a game of curling<lb/> on the ice &amp; home to tea &amp; a group of a<lb/>
+                dozen or so friends to say goodbye &amp; hear of<lb/> my plans. Berta brought me a
+                lovely<lb/> bouquet of flowers. I walked to the station<lb/> &amp; to home with Mr.
+                Cornish &amp; found <persName ref="#maryhobhouse">Aunt<lb/> Mary</persName> sitting
+                at work. She enjoyed the<lb/> flowers.<add>Mrs.Bouttell was awaiting me with some
+                    lace &amp; I succumbed to a lovely and cheap bit of Alençon</add> We dined alone
+                with Meg of course.</p></div>
+            
+            <div type="entry" xml:id="Jan22" n="22/01/1905"><p><lb/>
+                <hi rend="underline">Jan:22 Sunday.</hi> Up &amp; to see <persName
+                    ref="#maryhobhouse">Aunt Mary</persName> &amp; told<lb/> her I was going to the
+                abbey &amp; got there<lb/> punctually. Rather enjoying the service.<lb/> King's
+                accession. Rev. Shepard preached<lb/> rather well, a poor anthem. Home &amp;<lb/> to
+                my correspondence. Much bothered<lb/> by a letter from Mr. Celliers imputing to<lb/>
+                me unfair dealing as regards his M.S.<lb/> Drafted a letter to him. At 3.30
+                came<lb/> Mr. Montgomery &amp; we discussed his draft<lb/> at length. I practically
+                agreed that it<lb/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/23b261ad-08c0-45e8-a771-f96644497594" n="32v"/> would not suit the conditions of S.A.<lb/> but that
+                pure Raiffeisen would be<lb/> best. Before he left came Mr. Hammond<lb/> and to him
+                I told what I could for<lb/> an hour of <persName ref="#arthurhobhouse">Uncle
+                    Arthur</persName> &amp; his life &amp;<lb/> character. A wide theme which
+                none<lb/> know enough to handle well. Took<lb/> counsel with him about my reply<lb/>
+                to Celliers. Read <persName ref="#arthurhobhouse">Uncle Arthur's</persName><lb/>
+                letters &amp; poems with <persName ref="#maryhobhouse">Aunt Mary</persName> in<lb/>
+                the evening.</p></div>
+            
+            <div type="entry" xml:id="Jan23" n="23/01/1905"><p><lb/>
+                <hi rend="underline">Jan:23. Monday</hi> A busy day, packing &amp;<lb/> sorting.
+                First to dentist to have a tooth<lb/> stopped. Then letters. After lunch to<lb/> the
+                lace shop where could not resist<lb/> two rare &amp; beautiful bits of Alençon.<lb/>
+                Called for mended shoes &amp; home.<lb/> Madeline Rawstone to say goodbye &amp;<lb/>
+                following on her heels <persName ref="#leonardcourtney">Mr. Courtney</persName>.
+                He<lb/> brought me "Diary of a Churchgoer"<lb/> wh: he admitted in confidence
+                was<lb/> his own - and gave me words of warning<lb/> as to expecting discouragements &amp;c.<lb/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/23b261ad-08c0-45e8-a771-f96644497594" n="33r"/> But we were interrupted by <persName
+                    ref="#barbarahammond">Barbara</persName> looking<lb/> well &amp; brilliant who
+                brought me 2 pairs<lb/> of scissors from <unclear>Dowley</unclear> &amp; Pepys'
+                diary. We<lb/> talked long &amp; I was looking for opportunity<lb/> to offer her
+                    <persName ref="#arthurhobhouse">Uncle Arthur's</persName> mantle<lb/> when Lady
+                Farrer appeared, &amp; we had a<lb/> most affectionate talk. She was most<lb/> kind.
+                    <persName ref="#maryhobhouse">Aunt Mary</persName> &amp; I dined alone
+                &amp;<lb/> she read me bits of <persName ref="#arthurhobhouse">Uncle
+                    Arthur</persName> &amp;<lb/> then slept soundly.</p></div>
+            
+            <div type="entry" xml:id="Jan24" n="24/01/1905"><p><lb/>
+                <hi rend="underline">Jan: 24. Tuesday</hi> Up, very tired, &amp; the day a<lb/>
+                flagging one. Perhaps without giving<lb/> way at all one "feels it" these leave
+                -<lb/> takings that are so sore. Saw <persName ref="#maryhobhouse">Aunt<lb/>
+                    Mary</persName> in bed who had coughed some-<lb/> what in the night. All the
+                morning<lb/> packing, then out to post &amp;c. dear <persName ref="#maryhobhouse"
+                    >Aunt<lb/> Mary</persName> gave me £10 for "ease" of tips &amp;c.<lb/> after
+                lunch I to say goodbye to Julia<lb/> who looks well. I now home to write<lb/> this
+                &amp; finish up &amp; tip servants &amp;c.<lb/>
+                <persName ref="#madeleinelefevre">Miss Shaw Lefevre</persName> called &amp; upon her
+                Lady<lb/> Iddesleigh who prosed on for nearly 2 hours<lb/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/2daf25a3-8d7a-4e6f-9d88-894ae13f80dc" n="33v"/> unable to see how weary <persName ref="#maryhobhouse"
+                    >Aunt Mary</persName> was.<lb/> They went Lady I. plainly telling me she<lb/>
+                did not like my leaving <persName ref="#maryhobhouse">Aunt Mary</persName>,
+                &amp;<lb/> in truth Lady I. and I should never see<lb/> things eye to eye. <persName
+                    ref="#maryhobhouse">Aunt M</persName> &amp; I had a<lb/> few farewell words ere
+                    <persName ref="#leonardhobhouse">Leonard</persName> came.<lb/> We both found it
+                hard. I <hi rend="underline">physically</hi> so<lb/> because a lump rises in my
+                throat<lb/> wh: actually prevents speech - &amp; I feared<lb/> also lest she should
+                break down.<lb/> Only she said &amp; this I shall recollect<lb/> always with
+                satisfaction that happen<lb/> what may she "is content". She sees<lb/> work lies
+                before me wh: perhaps only<lb/> I can do, &amp; for the still young work<lb/> is
+                right &amp; good. And I said to her<lb/> I have been with you thro' the worst.
+                Nothing<lb/> worse <hi rend="underline">can</hi> happen than has happened<lb/> in
+                    <persName ref="#arthurhobhouse">Uncle Arthur's</persName> death, &amp; to this
+                she<lb/> agreed. <persName ref="#leonardhobhouse">Leonard</persName> came in &amp;
+                we spoke of<lb/> Russian Revolution, of liberal prospects<lb/> &amp; of the memoirs.
+                To dinner &amp; Oliver<lb/> came late &amp; then I went up to say a last<lb/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/2daf25a3-8d7a-4e6f-9d88-894ae13f80dc" n="34r"/> goodbye. <persName ref="#maryhobhouse">Aunt
+                    Mary</persName> opened wide her arms<lb/> &amp; with more feeling than I ever
+                saw in<lb/> her before almost cried out "goodbye my<lb/> darling". &amp; we
+                embraced. I think we<lb/> both felt we should not meet again.<lb/> tho' longingly we
+                speak of "six months hence."<lb/> And so it was over at last - the wrench<lb/> We
+                three went (Oliver Bodkin) in the brougham<lb/>
+                <add><hi rend="underline">to L'pool Street</hi></add> &amp; there met <persName
+                    ref="#margaretclark">Margaret Clark</persName> with sister &amp;<lb/> friends in
+                attendance &amp; Adeline Darby with<lb/>
+                relatives &amp; club girls in plenty. Easy crossing<lb/> and pleasant. But my head
+                ached<lb/> with unshed tears that had to be repressed.</p>
+            <p><lb/> The crossing was excellent all of us in one cabin<lb/> &amp; the ache in my
+                head kept me awake. At<lb/> Antwerp we got taken to the Kronprinz in a<lb/> cab as
+                contrary to the agent's assurances it was<lb/> quite a long distance from the ocean
+                boat.<lb/> This was decked with bunting from stern<lb/> to stern in honour of
+                    <persName ref="#martinussteyn">Mr. Steyn</persName>. It was several<lb/> hours
+                before he &amp; his party came on board<lb/> accompanied by a large circle of
+                friends &amp;<lb/> sympathisers, and Helen Botha with her<lb/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/ffcbc8a7-b257-40ea-84b0-ad945ecf2da1" n="34v"/> circle of friends amongst them the Du Prauxs<lb/>
+                from Malines who had been so hospitable<lb/> to me in the spring. Monsieur
+                Harry<lb/> too was there and took me apart to say<lb/> to me that he wished it known
+                to one<lb/> of the party that for some months he &amp;<lb/> his wife had no
+                responsibility for H. Botha.<lb/> In all this story part of which Madam H.<lb/> told
+                me last spring very little is clear<lb/> expect a division of opinion as to the<lb/>
+                upbringing of the girl, and great jealousy<lb/> between her various friends. Her
+                great<lb/> charm &amp; beauty no doubt make all wish<lb/> for her special
+                friendship.</p>
+            <p><lb/> We were disappointed that the ship kept<lb/> postponing its fixed departure
+                &amp; at last<lb/> finding the pilot refused to take us out<lb/> of the river till
+                next morning at 4am<lb/> we determined to go &amp; see the cathedral<lb/> the spire
+                of which beckoned to us like<lb/> a dream of beauty. The light improved<lb/> &amp;
+                so we saw the Rubens to advantage<lb/> the "descent from the cross" &amp;c and what<lb/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/ffcbc8a7-b257-40ea-84b0-ad945ecf2da1" n="35r"/> gave me more vivid pleasure many very<lb/> glorious
+                stained windows, the ruby colours<lb/> inimitable, and what was marvellous<lb/> the
+                difference of the materials worn by<lb/> the figures (whether silk, velvet, cloth,
+                fur)<lb/> perfectly represented in the glass.</p>
+            <p><lb/> We walked a little in the town to see the<lb/> gabled houses and being too late
+                for the<lb/> ship's tea got coffee in a very bad restaurant<lb/> which had no cakes
+                but lots of people<lb/> playing gambling games. Back to the ship<lb/> still full of
+                strangers and dined in a<lb/> very hot saloon at the same table as<lb/> the
+                Jacobizs. Glad to creep into our small<lb/> but airy cabins and sound sleep
+                came<lb/> except <del>out</del> until the siren announced our<lb/> departure at
+                4am.</p></div>
+            
+            <div type="entry" xml:id="Jan26" n="26/01/1905"><p><lb/>
+                <hi rend="underline">Jan 26. Thursday.</hi> It was tantalising today to pass<lb/>
+                close under Dover Castle after nearly two<lb/> days travelling. It was hard turning
+                into<lb/> the Channel &amp; nearly all felt squeamish<lb/> but it grew better as the
+                day wore on<lb/> &amp; we could enjoy the afternoon. I began<lb/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/59f7c8b7-7011-4a3d-a671-7778ac262e6d" n="35v"/> reading <persName ref="#williamroper"
+                    >Roper's</persName> "More" to <persName ref="#martinussteyn">Mr.
+                    Steyn</persName>.</p></div>
+            
+            <div type="entry" xml:id="Jan27" n="27/01/1905"><p><lb/> Friday Jan: 27. A glorious day, &amp; we sped down the<lb/> Channel calm &amp;
+                steady, everyone able to<lb/> enjoy the voyage. So calm was it that I got<lb/> out
+                my spinning wheel &amp; gave <persName ref="#margaretclark">M. Clark</persName> a
+                lesson<lb/> all the ship crowding round to see. She spun<lb/> &amp; carded all the
+                morning while I read an<lb/> hour to <persName ref="#martinussteyn">Mr.
+                    Steyn</persName> - he &amp; I much enjoying<lb/>
+                <persName ref="#thomasmore">Sir Thomas More</persName>. The French coast was in<lb/>
+                sight &amp; very pretty all the day. After lunch<lb/> I read an hour to <persName
+                    ref="#margaretclark">M. Clark</persName> &amp; Sister Adeline<lb/> from Vol ii of Golden Treasury. <persName
+                    ref="#arthuroshaughnessy">O’Shaugnessy’s</persName><lb/> poems were new to us,
+                &amp; Barnes. I also<lb/> read again <persName ref="#williamwatson">Wm.
+                    Watson's</persName> "For England" to <persName ref="#martinussteyn">Mr<lb/>
+                    Steyn</persName> &amp; at tea where we all gathered we<lb/> had a lively
+                discussion on women's suffrage<lb/> and women's position &amp; rights, <persName
+                    ref="#martinussteyn">Mr. Steyn</persName><lb/> proving himself a splendid
+                champion<lb/> for our cause &amp; all the women supporting<lb/> him against the Cape
+                Town Dutch consul<lb/> Mr. Van der Hoop &amp; the young Baron van<lb/> der Goes.
+                They had no arguments.<lb/> It grew cold as we rounded Ushant<lb/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/59f7c8b7-7011-4a3d-a671-7778ac262e6d" n="36r"/> &amp; instead of keeping the <persName
+                    ref="#wilhelmii">Emperor William's</persName><lb/> birthday with a ball as
+                intended most<lb/> of the ladies retreated to bed. It was<lb/> still wonderfully
+                calm &amp; smooth but<lb/> just a trifling swell upset all. At dinner<lb/> at the
+                    <hi rend="underline">fish</hi> a German got up &amp; made a<lb/> speech
+                proposing the <persName ref="#wilhelmii">Emperor's</persName> health wh:<lb/> we all
+                drank standing &amp; with great solemnity<lb/> &amp; cries of "Hoch", and another
+                man pro-<lb/> posed the health of the soldiers who had<lb/> fought in West Africa.
+                Helen Botha <hi rend="underline">would</hi><lb/> go out and dance in the bitter
+                night<lb/> air against the doctor's orders.</p></div>
+            
+            <div type="entry" xml:id="Jan28" n="28/01/1905"><p><lb/>
+                <hi rend="underline">Saturday Jan 28</hi> All affected by the Bay of Biscay<lb/> I
+                was not ill but could neither write or<lb/> read. Nursed <persName
+                    ref="#margaretclark">Margaret</persName> &amp; Sister Adeline.</p></div>
+            
+            <div type="entry" xml:id="Jan29" n="29/01/1905"><p><lb/>
+                <hi rend="underline">Sunday Jan 29</hi> Again glorious weather. Out<lb/> of the Bay
+                of Biscay &amp; everyone cheerful. Being Sunday<lb/> we all attended the German
+                services at<lb/> which my friend Rev: Arndt of old Bloemfn.<lb/> memories
+                officiated. First I read <persName ref="#thomasmore">Sir<lb/> Thomas More</persName>
+                to <persName ref="#martinussteyn">Mr. Steyn</persName> &amp; finished it &amp;<lb/>
+                next <persName ref="#margaretclark">M. Clark</persName> read "Diary of a Churchgoer"<lb/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/82d32972-9b86-4e43-8768-df5cb19349a7" n="36v"/> to me, I telling her the secret of its
+                authorship<lb/> which I have now told to two persons<lb/> but ought not to have done
+                so. Then to<lb/> the service whereat a great sleep came<lb/> over me, &amp; after
+                dinner we all feeling<lb/> thus overcome went to our cabins and<lb/> slept soundly
+                till tea time. A merry tea<lb/> &amp; then on deck where sweet Mrs. Jacobiz<lb/>
+                herself offered me to teach me Dutch<lb/> &amp; did so for an hour. She herself
+                speaks<lb/> very sweetly, making the rough tongue<lb/> sound most delicate. Her
+                little girl<lb/> wins all our hearts. The young people<lb/> became uproarious over a
+                game of<lb/> French tig &amp; I talked quietly with <persName ref="#martinussteyn"
+                    >Mr.<lb/> Steyn</persName>. He is a <hi rend="underline">good</hi> &amp; a great
+                man.<lb/> I find to my joy that he takes the<lb/> real Liberal view about the
+                question of<lb/> British Indians in S. Africa. He thinks<lb/> the first step should
+                be to carry out the<lb/> law (never heeded) &amp; send back the<lb/> Natal Coolies,
+                and then ditto with the<lb/> Chinese, &amp; leave such Indians as care to<lb/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/82d32972-9b86-4e43-8768-df5cb19349a7" n="37r"/> come naturally to do so, not prevent them.<lb/> A
+                lively dinner. Mr. Crichton our vis à vis<lb/> is interesting &amp; we find he
+                knows Cornwall<lb/> &amp; all our mines, &amp; he hates London and<lb/> motor cars.
+                We are a comfortable set<lb/> of people &amp; I am hoping the home-folk<lb/> are not
+                wasting sympathy over us.</p></div>
+            
+            <div type="entry" xml:id="Jan30" n="30/01/1905"><p><lb/>
+                <hi rend="underline">Monday Jan: 30</hi> A disappointing day for all<lb/> of us had
+                expected to be well and able<lb/> to read &amp; work, but we met a trade<lb/> wind
+                which brought about a fresh<lb/> motion and upset the whole ship more<lb/> or less.
+                I could not read to <persName ref="#martinussteyn">Mr. Steyn</persName><lb/> nor he
+                listen to me, and I had to cut<lb/> very short my Dutch lesson from Mr. Malan.<lb/>
+                But the ship's company &amp; servants are<lb/> pleasant &amp; all is simple &amp; kindly.<lb/>
+                <persName ref="#margaretclark">Margaret Clark</persName> introduced me today<lb/> to
+                the poems of <persName ref="#alfredhousman">Housman</persName>. "A Shropshire<lb/>
+                Lad" most charming. Quaint and<lb/> original. A real joy.</p></div>
+            
+            <div type="entry" xml:id="Jan31" n="31/01/1905"><p><lb/>
+                <hi rend="underline">Tuesday Jan 31st</hi> A lovely day enabled us all<lb/> to be
+                busy. Read with <persName ref="#martinussteyn">Mr. Steyn</persName>
+                <persName ref="#thomasmore">More's</persName><lb/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/6a92df58-6c7a-40d8-b557-2e794019ae6e" n="37v"/> Utopia to his great content &amp; learnt<lb/> much
+                Dutch &amp; began the translation of<lb/> of <persName ref="#aliebadenhorst">Mrs.
+                    Badenhorst's</persName> narrative. Read<lb/>
+                <persName ref="#leonardcourtney">Mr. Courtney's</persName> book &amp; <persName
+                    ref="#jamesboswell">Boswell's</persName> Johnson.<lb/> Much touched by <persName
+                    ref="#leonardcourtney">Mr. Courtney's</persName> brave<lb/> analysis of the
+                amount of belief<lb/> in Christ held by prominent men<lb/> from St. Paul downwards.
+                Find <persName ref="#jamesboswell">Boswell</persName><lb/> rather heavy in places.
+                Shipfolk<lb/> very merry. The peak of Tenerife in<lb/> sight and land promised
+                tonight.</p></div>
+            
+            <div type="entry" xml:id="Feb01" n="01/02/1905"><p><lb/>
+                <hi rend="underline">Wednesday Feb: 1st</hi> Early roused, for we were anchored<lb/>
+                in Las Palmas harbour. Glorious day &amp; all<lb/> looking beautiful. Directly after
+                breakfast<lb/> we joined Mr. Jabcobiz's party for the shore.<lb/> I should have
+                preferred a drive into the<lb/> hills having often seen the town. But we<lb/> could
+                not separate. All were excited<lb/> by the brilliance of the sun and air &amp;
+                the<lb/> girls (Steyns &amp; H. Botha) so much so that<lb/> they were very
+                uproarious. We bought<lb/> things we did not want &amp; eat fruit.<lb/> Visited the
+                market, the cathedral, the<lb/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/6a92df58-6c7a-40d8-b557-2e794019ae6e" n="38r"/> shops &amp; finally lunched in the Hotel
+                Catalina.<lb/> The scarlet hybiscus in the gardens<lb/> very beautiful and I drew
+                sections of<lb/> it, wondering if it would work into<lb/> a good design. Likewise
+                palm, &amp; orange<lb/> fruit &amp; blossom. I long to make designs<lb/> jumping in
+                my mind across the long<lb/> interval that intervenes betwixt now<lb/> &amp; the
+                moment when they may be<lb/> needed. Shall we succeed or fail?<lb/> That question
+                stands up &amp; looks me<lb/> in the face rather closely now.<lb/> From such talk as
+                I have had with<lb/> my Boer friends on board I fancy<lb/> they all think us doomed
+                to fail<lb/> but then they really do not know &amp;<lb/> never seem to care to hear
+                our plans<lb/> or schemes of work. Indeed are quite<lb/> ignorant of the kinds of
+                work<lb/> proposed. It sometimes strikes me as<lb/> curious how many of them go
+                to<lb/> Europe &amp; return without having studied<lb/> the things that might be most<lb/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/f076e313-b174-4fc1-b6b8-772253e9eb79" n="38v"/> usefully introduced into their<lb/> country.</p></div>
+            
+            <div type="entry" xml:id="Feb02" n="02/02/1905"><p><lb/> 2nd. Feb: <del><gap/>Thursday</del> - Very busy.</p></div>
+            <div type="entry" xml:id="Feb03" n="03/02/1905"><p><lb/>
+                <hi rend="underline">3. Feb: Friday</hi>. Yesterday having passed in<lb/> the same
+                round of occupations I did<lb/> not write, but spent the time designing.<lb/> Today
+                the same lovely weather continuing<lb/> we were as busy as ever. A talk<lb/> with Sister Adeline yesterday troubled<lb/>
+                me much. It appears she has done<lb/> practically no wool-weaving, while<lb/> I had
+                engaged her wholly as an<lb/> expert on that branch - having<lb/> as I understood
+                agreed with her<lb/> that from the date of the engagement<lb/> she would spend her
+                whole time<lb/> till our departure (nearly 3 months)<lb/> in hand training on that
+                subject<lb/> alone. She now tells me she could<lb/> get no loom &amp; has done
+                almost<lb/> none, &amp; a good deal to that effect.<lb/> I feel astounded, having
+                pictured<lb/> her hard at work at Haslemere School<lb/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/f076e313-b174-4fc1-b6b8-772253e9eb79" n="39r"/> weaving woollen materials &amp; gaining<lb/> the
+                confidence that comes from constant<lb/> practice. How serious this may be<lb/> in
+                its effects on my work I can<lb/> hardly say. It has weighed heavily<lb/> on my mind
+                ever since, &amp; one feels<lb/> wholly powerless to do anything. But<lb/> I do feel Sister Adeline was most wrong<lb/> not
+                to have written and told me<lb/> that she was prevented by lack of<lb/> a loom from
+                carrying out the necessary<lb/> practice &amp; learning of wool-weaving.<lb/> Talked
+                it over with <persName ref="#margaretclark">Margaret</persName> who<lb/> felt as I
+                did about it.</p>
+            <p><lb/> Mr. Malan gave us an interesting<lb/> lesson today which I repeated to<lb/> Mr.
+                Jacobiz in the evening for practice.<lb/> Began David Copperfield to <persName
+                    ref="#martinussteyn">Mr. Steyn</persName>.<lb/>
+                <persName ref="#margaretclark">Margaret</persName> has nearly conquered her<lb/>
+                spinning.</p></div>
+            
+            <div type="entry" xml:id="Feb04" n="04/02/1905"><p><lb/>
+                <hi rend="underline">Feb 4. Saturday</hi> Did not write</p></div>
+            
+            <div type="entry" xml:id="Feb05" n="05/02/1905"><p><lb/>
+                <hi rend="underline">Feb 5. Sunday</hi>. I have taken a real<lb/> rest today, being
+                rather tired by the<lb/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/47a4877f-40b2-4b2b-aa1f-28ce86904368" n="39v"/> close application of the past week. This<lb/> brain
+                won't stand much aboardship.<lb/> The Steyn girls &amp; Helen Botha remain in-<lb/>
+                defatigable in their games - never<lb/> once do they sit down except for<lb/> meals.
+                The fat German on board has<lb/> had a silly bet with the doctor that<lb/> he could
+                fast a day for £5.<lb/> Friends tempted him in vain. At<lb/> 7 this morning his time
+                was up<lb/> or so he believed, but not until<lb/> 11 (sandwich time) did he
+                break<lb/> fast. Then the doctor said the<lb/> bet was his for he meant it<lb/> must
+                last not the 24 hours<lb/> but till noon of the next day.<lb/> The captain was made
+                umpire<lb/> &amp; decided unfairly as we thought<lb/> for the doctor who won the
+                £5<lb/> &amp; then treated his combatant<lb/> to a lunch of iced champaign.</p>
+            <p><lb/> Read Utopia to <persName ref="#martinussteyn">Mr. Steyn</persName> &amp;
+                talked<lb/> long with <persName ref="#margaretclark">Margaret</persName> about
+                    <persName ref="#williamwalton">Wm. Walton's</persName><lb/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/47a4877f-40b2-4b2b-aa1f-28ce86904368" n="40r"/> poems &amp; out prospects of work &amp;<lb/> began
+                "Erewhon" by <persName ref="#samuelbutler">Samuel Butler</persName>.<lb/> The sea
+                continues perfectly calm<lb/> &amp; today for the first time we<lb/> have felt the
+                warmth oppressive<lb/> nevertheless the thermometer is<lb/> only 82° Fahrenheit.
+                Last night<lb/> we talked much Dutch with<lb/> Mr. Jacobiz.</p></div>
+            
+            <div type="entry" xml:id="Feb06" n="06/02/1905"><p><lb/>
+                <hi rend="underline">Feb: 6. Monday</hi>. Wrote nothing</p></div>
+            
+            <div type="entry" xml:id="Feb07" n="07/02/1905"><p><lb/>
+                <hi rend="underline">Feb: 7. Tuesday</hi>. Yesterday and today<lb/> we worked hard
+                again, spinning carding<lb/> Dutch &amp;c: &amp; I had the satisfaction<lb/> of
+                seeing how <persName ref="#margaretclark">Margaret</persName> improved<lb/> in her
+                spinning. It was hot of course<lb/> but not unbearable as we were<lb/> blessed by a
+                strong head breeze<lb/> which after dinner increased<lb/> suddenly &amp; before we
+                knew it<lb/> we were in the midst of a heavy<lb/> thunderstorm - rain lashing
+                &amp;<lb/> lightning almost incessant - illuminating<lb/> the entire sea. It was
+                grand &amp;<lb/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/d5cca1af-da89-4f78-9764-a69434db40f2" n="40v"/> lasted some 3 hours, somewhat<lb/> relieving the
+                oppression. <persName ref="#margaretclark">Margaret</persName><lb/> &amp; I unable
+                to breathe in our<lb/> unventilated cabins - stood outside<lb/> in the dark watching
+                the storm.<lb/> This morning passengers report<lb/> having seen a waterspout
+                not<lb/> far off but this I did not see<lb/> &amp; luckily our ship escaped.<lb/>
+                Today the ship is upset by a<lb/> fancy ball which will keep us<lb/> up till at
+                least 12 o'clock &amp;<lb/> makes me half wish for a<lb/> cabin below. Rather hard
+                to<lb/> have <hi rend="underline">2 balls</hi> in one voyage &amp;<lb/> stupid to
+                try &amp; dance exactly<lb/> as we now are upon the Equator.<lb/></p>
+            <p>I have not yet summoned<lb/> courage to say anything to Sister<lb/> Adeline on the point of her<lb/> weaving knowledge.
+                Perhaps after<lb/> all it will be best to wait &amp;<lb/> see how she <hi
+                    rend="underline">does</hi> get on.</p></div>
+            
+            <div type="entry" xml:id="Feb08" n="08/02/1905"><p><lb/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/d5cca1af-da89-4f78-9764-a69434db40f2" n="41r"/>
+                <hi rend="underline">Wednesday Feb 8</hi> Ellie Jacobiz's birthday.<lb/> I gave her
+                a toy I bought at Las Palmas<lb/> but all day I, like the rest, was<lb/>
+                    "<unclear>paap</unclear>" owing to the bad night<lb/> we had had joined to the
+                hot<lb/> weather. The fancy ball had been<lb/> kept up very late &amp;
+                degenerated<lb/> into a rowdyism kept up till<lb/> 4 am in the smoking room.<lb/> It
+                was distressing to us to see<lb/> 3 such young girls as the 2 Steyns<lb/> &amp;
+                Helen Botha allowed to remain<lb/> up to late in such rough<lb/> company. They were
+                all three<lb/> in the smoking room singing<lb/> songs with the men till 1.30<lb/>
+                long after the actual dance<lb/> had ended. I lay in my hot<lb/> bunk &amp; listened
+                to the noise<lb/> next door. <unclear>All were pape</unclear> &amp; ill<lb/> next
+                day. I was glad to learn<lb/> that Mrs. Jacobiz was as sorry<lb/> as we were about
+                these doings.<lb/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/6f0e7e66-a804-410b-b2c4-0b45ba6d7511" n="41v"/> Helen, she affirms was in mind<lb/> still a child,
+                but unfortunately<lb/> she has the appearance of a<lb/> woman of 20 &amp; is
+                beautiful<lb/> into the bargain. It appears<lb/> she had wished to figure as a<lb/>
+                boy but this Mrs. Jacobiz had<lb/> prevented successfully - she had<lb/> however
+                supplied a young<lb/> German lieutenant who went<lb/> as a girl of the period,
+                with<lb/> all her clothes down to her<lb/> chemise. At 3.30 that night<lb/> unable
+                to endure the combined<lb/> heat and noise any more<lb/> I left my cabin &amp; fled
+                to the<lb/> ladies' saloon, but at 4 o'clock<lb/> the smoke room emptied &amp;<lb/>
+                the tipsy men went noisily<lb/> round &amp; round the deck<lb/> making sleep
+                impossible.<lb/> So we were disorganised all<lb/> day. I finished reading<lb/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/6f0e7e66-a804-410b-b2c4-0b45ba6d7511" n="42r"/> the Utopia to <persName ref="#martinussteyn">Mr.
+                    Steyn</persName> &amp; then Mr.<lb/> du Preez massaged my arms &amp;<lb/> Mrs.
+                Steyn made me lie down in<lb/> her cool cabin. I should have<lb/> slept here, had
+                they not talked<lb/> loudly outside all the morning.<lb/> After <del>breakfast</del>
+                lunch our rest<lb/> time brought no sleep, but<lb/> later I continued David
+                Copperfield<lb/> to <persName ref="#martinussteyn">Mr. Steyn</persName> and
+                translation with<lb/> Mr. Malan. Had a long talk<lb/> with <unclear>fluent</unclear>
+                Mrs. Jacobiz at night.</p></div>
+            
+            <div type="entry" xml:id="Feb09" n="09/02/1905"><p><lb/>
+                <hi rend="underline">Thursday Feb:9</hi> A good night which<lb/> partly set us up
+                again, but a<lb/> complaint has attacked us of<lb/> our heads being like
+                turnips.<lb/> However all our usual avocations<lb/> were carried out except the
+                spinning<lb/> &amp; carding. <persName ref="#margaretclark">Margaret</persName>
+                &amp; I called<lb/> on <unclear>Mrs. Aindt</unclear> in the 2nd class<lb/> &amp;
+                inspected their premises, sitting<lb/> for sometime at the stern.</p>
+            <p><lb/> Afterwards the captain gave me<lb/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/e23387cc-919c-40b1-8409-252962c5d7cb" n="42v"/> leave to sit on the boat deck, his<lb/> sanctum
+                during the sports wh:<lb/> are filling the ship with noise<lb/> this afternoon. It
+                was perfect<lb/> quiet &amp; peaceful there and<lb/> I read <persName
+                    ref="#leonardhobhouse">Leo's</persName> book for 3 hours<lb/> undisturbed.</p></div>
+            
+            <div type="entry" xml:id="Feb10" n="10/02/1905"><p><lb/>
+                <hi rend="underline">Friday Feb:10</hi> Wrote nothing being very<lb/> poorly.</p></div>
+            
+            <div type="entry" xml:id="Feb11" n="11/02/1905"><p><lb/>
+                <hi rend="underline">Saturday 11th Feb:</hi> Yesterday was a perturbed<lb/> day
+                because not only were <persName ref="#margaretclark">Margaret</persName><lb/> and I
+                very poorly and shaky,<lb/> but Sister Adeline was laid up<lb/> with a bad knee. She had an<lb/> accident
+                Thursday evening after<lb/> tea. Apparently she challenged the<lb/> young Baron v.d
+                Goes to run after<lb/> her &amp; he doing so and bearing<lb/> down upon her caught
+                his foot in<lb/> her sandal and she fell heavily<lb/> upon her knee. The pain
+                increased<lb/> so during the evening that I insisted<lb/> upon the doctor being
+                consulted &amp;<lb/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/e23387cc-919c-40b1-8409-252962c5d7cb" n="43r"/> he at once said the knee cap was<lb/>
+                <hi rend="underline">cracked</hi>, not broken &amp; it must have<lb/> repeated ice
+                applications throughout<lb/> the night. She was put to bed &amp;<lb/> this was done,
+                the stewardess giving<lb/> kind attention throughout the night.<lb/> Next morning
+                she was carried on<lb/> deck &amp; he put it in splints &amp;<lb/> alarmed me by
+                saying it must<lb/> so remain for some weeks. I am<lb/> left wondering what to do
+                under<lb/> this unlooked for added difficulty .<lb/> A knee sound &amp; good is
+                essential<lb/> for weaving. Maybe she will have<lb/> to be left in Cape Town or
+                even<lb/> sent straight home. I feel altogether<lb/> much perplexed by the little
+                woman<lb/> &amp; have my doubts to her usefulness<lb/> or success as a <hi
+                    rend="underline">teacher</hi>. As a<lb/> person with all my appreciation<lb/> of
+                her fine qualities &amp; pure mind<lb/> I find her &amp; so I discover, does<lb/>
+                <persName ref="#margaretclark">Margaret</persName> rather hard to get on with<lb/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/1e95089b-08da-4287-b565-504ac02cea92" n="43v"/> She speaks to us as if we were also<lb/> the factory
+                girls amongst whom<lb/> she has long<del>ed</del> worked &amp; as if<lb/> every word
+                of hers must be looked<lb/> on as an oracle, even if on the<lb/> commonest subject.
+                She has<lb/> no lighteners of conversation and<lb/> seeks to impress every
+                empty<lb/> remark with her eyes as if we<lb/> must write it on our souls.<lb/>
+                Instinctively we resent this,<lb/> wishing to sustain an attitude<lb/> civil &amp;
+                friendly but impersonal<lb/> &amp; evidently she is rebuffed.<lb/> I trust however
+                she will shake<lb/> down into a more natural<lb/> manner &amp; state of mind.<lb/>
+                She strikes me as wholly devoid<lb/> of common sense. Her wearing<lb/> of bare feet
+                &amp; legs with sandals<lb/> amongst a medley of strangers<lb/> with a flimsy skirt
+                in a<lb/> high wind has been trying.<lb/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/1e95089b-08da-4287-b565-504ac02cea92" n="44r"/> &amp; one feels somewhat insecure as to<lb/> what she
+                will do or where turn up.<lb/> This morning she was better, the<lb/> pain having
+                abated, &amp; the doctor<lb/> hoped 14 days might see the<lb/> end of it, but one
+                cannot tell if<lb/> the knee cap can then be used as<lb/> hard as will be required.
+                I shall<lb/> have to wait and take Dr. Murray's<lb/> opinion in Cape Town. We are
+                making<lb/> bad runs and not likely to get in<lb/> till the 18th.</p>
+            <p><lb/> Yesterday was <persName ref="#margaretclark">Margaret's</persName> 27th
+                birthday<lb/> a rather dreary day for her as she<lb/> was poorly. I gave her Marco
+                Polo<lb/> which pleased her very much.</p></div>
+            
+            <div type="entry" xml:id="Feb12" n="12/02/1905"><p><lb/> Sunday Feb:12 The month slips by but<lb/> we now feel sure we shall not
+                land<lb/> on the 16th as the runs have been<lb/> bad. Today I had considerable<lb/>
+                giddiness &amp; felt shaky. <persName ref="#martinussteyn"><unclear>Mr</unclear>
+                    President</persName><lb/> too had a headache and several<lb/> of the others were
+                poorly. We do not<lb/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/4523aa7e-23cb-44dc-88d1-a902848286c4"/><pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/aeb28f1c-fc18-4c92-a309-6c98bee36942" n="44v"/> know why unless it is some
+                new<lb/> movement of the ship occasioned<lb/> by a fresh swell. All the morning<lb/>
+                I sat reading 50 pages of Labour<lb/> Co. partnership. Several poems,<lb/> &amp;
+                some Dutch w Mr. Malan. After<lb/> lunch a horrid attempt at<lb/> sleep which made
+                me feel very<lb/> queer, &amp; after tea read "Erewhon<lb/> Revisited" and walked
+                the deck.<lb/> At dinner Mr. Brown entertained<lb/> us by talk of his experiences
+                in<lb/> China where he dwelt 7 years &amp;<lb/> told us how he got into trouble<lb/>
+                &amp; disrepute in England by "showing<lb/> up" the falsity of the sensational<lb/>
+                Daily Mail telegrams about<lb/> the people murdered(?) in China in<lb/> 1900, which
+                proved as he said<lb/> wholly untrue. A long talk<lb/> with <persName
+                    ref="#martinussteyn">Mr. Steyn</persName> about S.A. &amp; the<lb/> prospects of
+                the Liberal Party.<lb/>
+                Sister A's knee less painful but<lb/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/aeb28f1c-fc18-4c92-a309-6c98bee36942" n="45r"/> one can easily hear it grating &amp; it<lb/> must yet
+                remain 14 days in<lb/> splints.</p>
+            <p><lb/>
+                <persName ref="#margaretclark">Margaret</persName> most kind &amp; attentive.</p></div>
+            
+            <div type="entry" xml:id="Feb13" n="13/02/1905"><p><lb/> Monday Feb:13 Wrote not</p></div>
+            
+            <div type="entry" xml:id="Feb14" n="14/02/1905"><p><lb/> Tuesday Feb. 14 Valentine's day. Parliament meets.<lb/> Wrote not.</p>
+            <p><lb/>
+                <hi rend="underline">Wednesday Feb 15</hi> Last night we anchored near<lb/> a wreck
+                off Swakopmund - unable<lb/> to get in till the mist lifted, but<lb/> this morning
+                we found ourselves<lb/> arrived, the vessel having crawled<lb/> in at half speed
+                last night.<lb/> Good after 14 days to see land &amp; life<lb/> again, though the
+                land be bit<lb/> a sand bank and the life 3 or 4<lb/> officials in a tug &amp; 3 or
+                4 negroes<lb/> in a lighter. Owing to the war<lb/> some ½ doz. German ships are in
+                the<lb/> bay. There is no dock or even<lb/>
+                <unclear>mole</unclear> or pier and we have to<lb/> lie 2 miles out &amp; have no
+                chance<lb/> of going ashore. The delay is<lb/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/4a93665d-915b-4bd5-9655-65dbb9452e37" n="45v"/> considerable as the majority of our<lb/> passengers
+                and a good deal of<lb/> the cargo is discharged here.<lb/> We shall have to do our
+                own<lb/> packing today and so after<lb/> breakfast I spoke to Sister Adeline<lb/> about the necessity of
+                leaving her<lb/> behind at Cape Town and taking<lb/> Dr. Murray's advice as to
+                what<lb/> course she must pursue. I said<lb/> she must keep all her goods with<lb/>
+                her. She was amenable.</p>
+            <p><lb/> Monday night they had a farewell<lb/> dance &amp; next morning the girls<lb/>
+                all appeared with black ribbons<lb/> worn as mourning for the companions<lb/> who
+                were to get off at Swakopmund.<lb/></p>
+            <p>In the afternoon the whole party<lb/> invaded my sanctum, the boat<lb/> deck.
+                Imitated Syrens and made<lb/> a hullabaloo so hideous that<lb/> I decamped &amp;
+                poor <persName ref="#martinussteyn">Mr.</persName> &amp; Mrs. Steyn<lb/> were
+                deprived of their siesta.<lb/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/4a93665d-915b-4bd5-9655-65dbb9452e37" n="46r"/> They are a most thoughtless lot of<lb/> young people,
+                &amp; the girls allowed a<lb/> most undesirable freedom.<lb/> I have finished
+                reading "Erewhon revisited"<lb/> ingenious but not so amusing as<lb/> "Erewhon" and
+                    <persName ref="#thomasmore">More's</persName> Utopia, More's<lb/> Life by
+                    <persName ref="#williamroper">Roper</persName>, <persName ref="#leonardcourtney"
+                    >Mr. Courtney's</persName> book, <persName ref="#leonardhobhouse"
+                    >Leonard's</persName><lb/> book and am half through <persName
+                    ref="#philipsidney">Sidney's</persName><lb/> "Arcadia" &amp; <persName
+                    ref="#jamesboswell">Boswell's</persName> Johnson. Also<lb/> various books on
+                cooperation - banks<lb/> &amp; Co. partnerships. I read David Copper-<lb/> field to
+                    <persName ref="#martinussteyn">Mr. Steyn</persName> 2 hours daily &amp;<lb/> we
+                continue our Dutch lessons.<lb/> Writing &amp; designing have been a<lb/>
+                difficulty. Such a long entry as<lb/> today's is due to our pause at this<lb/>
+                little place.</p></div>
+            
+            <div type="entry" xml:id="Feb16" n="16/02/1905"><p><lb/>
+                <hi rend="underline">Feb: 16 Thursday</hi> A very weary day, the<lb/> trade wind
+                almost due ahead &amp;<lb/> causing a most dismal pitching.</p></div>
+            
+            <div type="entry" xml:id="Feb17" n="17/02/1905"><p><lb/>
+                <hi rend="underline">Feb:17 Friday.</hi> Ship still pitching<lb/> though somewhat
+                abated. All of<lb/> us affected in our heads and<lb/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/75cf1879-25ab-4f53-8fec-2912514b80e6" n="46v"/> and unable to do our packing excepting<lb/> in short
+                stages. I read to <persName ref="#martinussteyn">Mr. Steyn</persName><lb/> as usual.
+                    <persName ref="#margaretclark">Margaret</persName> much upset<lb/> by packing.
+                The Chief officer promised<lb/> to call us at 4am to see the<lb/> approach to Table
+                Bay at dawn.<lb/> He told us it was true about<lb/> the two black spots seen by<lb/>
+                some of the passengers in the<lb/> tropics, but that they were only<lb/> visible in
+                some <del>of the</del> latitudes.<lb/> They had seen them last voyage<lb/> &amp; had
+                reported them at Hamburg<lb/> but had heard nothing <del>of</del> in<lb/> the way of
+                explanation.</p>
+            <p><lb/> To bed early. </p></div>
+            
+            <div type="entry" xml:id="Feb18" n="18/02/1905"><p><lb/>
+                <hi rend="underline">Saturday Feb:18</hi> Rose at dawn &amp; there<lb/> was the
+                grand still beauty of the Bay<lb/> outlined against the already glowing<lb/> sky.
+                The Blauwberg Mountains were<lb/> sharp cut against the gold, the Table<lb/> group
+                more tenderly. Soon we<lb/> passed into the dock (the old<lb/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/75cf1879-25ab-4f53-8fec-2912514b80e6" n="47r"/> familiar dock where my weary<lb/> imprisonment was
+                once spent, &amp;<lb/> there news &amp; letters came on board.<lb/>
+                <persName ref="#martinussteyn">Mr. Steyn</persName> calm &amp; grand as usual.<lb/>
+                We had time for breakfast before<lb/> our various friends began to arrive<lb/> van
+                Broekhuisens, Mr.Bredell, Onye<lb/> Jan, Mr. <unclear>Chiappini</unclear>, Mr.
+                Malan, Mr. Fischer,<lb/> the Transvaal delegates <persName ref="#ewaldesselen">Ewald
+                    Esselen</persName><lb/> &amp; Jaapie de Villiers which last I<lb/> had so long
+                desired to meet. Mr.<lb/> Schultz, kind as ever and <persName ref="#jansmuts">General<lb/> Smuts</persName>. A rare &amp;
+                delightful gathering.<lb/> Mr. de Villiers seemed to know me at<lb/> once &amp; came
+                &amp; sat down &amp; talked<lb/> to me &amp; I felt full of strange interest<lb/> in
+                him. A man of whom I had<lb/> heard so much that was good and<lb/> noble, <del>&amp;
+                    about whom (all unknown)<lb/> had had such</del><lb/> I liked his face, very
+                strong &amp;<lb/> rather rugged - with fine expressions<lb/> dark grey eyes, full of
+                feeling &amp;<lb/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/0ecb0024-17c0-4bc6-b900-74c482d39ad5" n="47v"/> of humour, and a sweet smile<lb/> showing fine white
+                teeth. In<lb/> strong easy language he painted<lb/> affairs in Johannesburg &amp;
+                the Transvaal<lb/> words replete with feeling, and<lb/> intensity of purpose &amp;
+                complete<lb/> grasp of the situation. A reliable<lb/> man, strong and good. I
+                wanted<lb/> to see more of him, talk more<lb/> to him, hear him tell <del>me</del>
+                more.<lb/> Soon they all left with the<lb/> President leaving <persName ref="#jansmuts">General Smuts</persName><lb/> to
+                look after us. It transpired<lb/> that the carriage good Mr. Schultz<lb/> had
+                brought down for me had<lb/> broken down en route &amp; as he<lb/> would not let me
+                take a cab<lb/> I was to wait till he brought<lb/> another. So we sat in the
+                dock<lb/> with <persName ref="#jansmuts">Smuts</persName> and enjoyed his talk.<lb/> It was good to see him look so<lb/>
+                well. Suddenly radiant as usual<lb/> Mrs. Sauer appeared &amp; together we all<lb/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/0ecb0024-17c0-4bc6-b900-74c482d39ad5" n="48r"/> drove off Mr. Schultz &amp; <persName ref="#jansmuts">Smuts</persName> in a<lb/> cab
+                behind us. At the customs gates<lb/> a rough man stopped the carriage saying<lb/>
+                "Which of you 4 ladies is Miss Hobhouse?"<lb/> A momentary shudder went through<lb/>
+                me, but he added "because I want<lb/> to shake hands with her. I have<lb/> read her
+                books &amp; admire her".<lb/> This was easy &amp; we proceeded he<lb/> shouting
+                after us "I'm Irish<lb/> that's what I am"!</p>
+            <p><lb/> To the bank where 2 home letters<lb/> for me and 13 for <persName
+                    ref="#margaretclark">Margaret</persName>! What<lb/> a difference having a family!<lb/>
+                <persName ref="#maryhobhouse">Aunt Mary</persName>'s was <hi rend="underline"
+                    >very</hi> short &amp; Mrs.<lb/> Chitty's very kind &amp; sympathetic.<lb/> Then
+                up to Avignon to greet Mrs. de<lb/> Villiers &amp; leave Mrs. Sauer with the<lb/>
+                President. At 11.30 we started<lb/> for Kenilworth, <persName ref="#margaretclark"
+                    >Margaret</persName> going on<lb/> to Wynberg in charge of Malins de<lb/>
+                Villiers &amp; Sister &amp; I got out &amp; were<lb/> helped up here by James Molteno<lb/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/20700758-b8ad-4185-adbd-d6234f6286d8" n="49v"/> who also jumped out of the train.<lb/> Mrs. Murray
+                gave us a warm greeting<lb/> &amp; we lunched &amp; had a quiet<lb/> afternoon,
+                    <persName ref="#margaretclark">Margaret</persName> coming over<lb/> later to do
+                some writing for me.</p></div>
+            
+            <div type="entry" xml:id="Feb19" n="19/02/1905"><p><lb/>
+                <hi rend="underline">Sunday Feb 19</hi> I did not sleep much.<lb/> I was excited
+                &amp; missed too the<lb/> rocking of the waves. All night<lb/> I lay awake thinking
+                of the<lb/> past &amp; the future and interwoven<lb/> with all my thoughts
+                    <del>was</del> were <del><gap/></del><lb/>
+                <add>the <gap/></add> words <add>spoken to us that day</add> I talked with Dr.
+                Murray<lb/> about Sister's knee which he<lb/> thinks will take some time to<lb/>
+                cure, &amp; in the morning at 10am<lb/> came <persName ref="#margaretclark"
+                    >Margaret</persName> who wrote for me<lb/> a long letter to Mr. Fraser
+                &amp;c:<lb/> Mr. James Molteno kept us all<lb/> alive with his jokes. After
+                lunch<lb/> Margaret came back with<lb/> Hembury, her railway friend<lb/> who had
+                come up from Beaufort<lb/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/20700758-b8ad-4185-adbd-d6234f6286d8" n="50r"/> West especially to meet her. A<lb/> very nice man.
+                They gone, came<lb/> Mr. Fischer, but to my disappointment<lb/>
+                <del><gap/></del><add>others were not</add> with him<lb/> for my notes of invitation
+                written<lb/> the day before had not reached<lb/> either one. He told us much
+                news<lb/> and promised legal advice about<lb/> Raiffeisen banks if I would send<lb/>
+                him the papers about them.<lb/></p>
+            <p>When he left I went with Mrs.<lb/> Murray to <del>buy</del> look at a Swedish<lb/>
+                stove much recommended to <lb/> me, &amp; thence to call on Mrs.<lb/> Koopmans in
+                Wynberg. Dear<lb/> old soul she becomes more of a<lb/> bore and less entertaining
+                with<lb/> advancing years. But the days<lb/> here are full, my thoughts various<lb/>
+                and it disappoints me to find<lb/> how impossible it is to write<lb/> all in one's
+                journal &amp; after all<lb/> how little of one's true inner<lb/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/951ff1af-ae04-4980-ab1a-82acbecb59eb" n="50v"/> feeling one writes, one is shy<lb/> even of one's own
+                journal.</p></div>
+            
+            <div type="entry" xml:id="Feb20" n="20/02/1905"><p><lb/>
+                <hi rend="underline">Monday Feb 20</hi> Early up &amp; to town with<lb/> Jarvis
+                Murray who was very attentive<lb/> and took me to the up express<lb/> to see my
+                friends off. Jaapie de<lb/> Villiers was first to arrive &amp; I<lb/> was glad to
+                see him. He &amp; Mrs. Esselen<lb/> and Helen Botha &amp; the Rissiks were<lb/> the
+                party leaving. I had a long<lb/> talk with Mr. de Villiers, we falling<lb/> apart
+                from the rest and standing<lb/> in the shade against another<lb/> train. I was
+                impressed with his<lb/> courage &amp; hope for the future of<lb/> the country. He
+                said he thought<lb/> the future held more hope than<lb/> before the war. The people
+                had<lb/> been sifted &amp; tested - &amp; were now <lb/> consolidated as never
+                before.<lb/> The issues were clear. He said<lb/> much that was encouraging<lb/>
+                about my work &amp; promised all<lb/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/951ff1af-ae04-4980-ab1a-82acbecb59eb" n="51r"/> the assistance in his power. He<lb/> asked me to let
+                him know when<lb/> I came north, writing to him at the<lb/> Rand Club.
+                    <del><gap/></del></p>
+            <p><lb/> Then <persName ref="#margaretclark">Margaret</persName> and I turned to<lb/>
+                our hot days work. This consisted<lb/> in the usual weary round of offices
+                &amp;<lb/> clerks. We succeeded however in at<lb/> last <del>in</del> getting the
+                promise of a rebate<lb/> on the duties charged. They had put<lb/> a 10% duty on all
+                as if foreign goods<lb/> whereas <hi rend="underline">British</hi> should only be
+                7%.<lb/> I had given careful instructions from<lb/> England that this was to be seen
+                to, as<lb/> our things were almost wholly British<lb/> but they sprung upon us the
+                rule that<lb/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/ccc01d34-4a49-4a32-b31f-7f6b0e8c19f6" n="51v"/> that private assertion was not<lb/> enough, it was
+                necessary to<lb/> have certificate assurance<lb/> from the <hi rend="underline"
+                    >head</hi> of English firms.<lb/> I pleaded ignorance of this rule - and<lb/>
+                eventually the comptroller of customs<lb/> consented to take my word for
+                it.<lb/></p>
+            <p>We bought a stove and saw to the<lb/> other matters. Lunched with<lb/> Jarvis Murray
+                &amp; on the way back<lb/> got out at Rondebosch to see Mrs. Botha<lb/> at Ivydene.
+                She was out &amp; we only<lb/> saw the girls. Went home and to<lb/> our dismay found
+                    <persName ref="#georgianasolomon">Mrs. Saul Solomon</persName><lb/> fully
+                installed &amp; awaiting my arrival.<lb/> She exhorted us for nearly two hours<lb/>
+                in pulpit language of the appropriate<lb/> gestures to aid &amp; abet her in
+                her<lb/> scheme for organizing the S.A. comm.<lb/> She would not answer our
+                questions<lb/> &amp; would not listen to our views but<lb/> simply preached till we
+                were weary.<lb/> Most people think her scheme will<lb/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/ccc01d34-4a49-4a32-b31f-7f6b0e8c19f6" n="52r"/> fall thro' as soon as she leaves S.A. which<lb/>
+                apparently she shortly means to do.<lb/> Anyhow to be her correspondent &amp;
+                keep<lb/> her fully informed as it appears<lb/> she wishes, is quite impossible
+                for<lb/> me.</p></div>
+            
+            <div type="entry" xml:id="Feb21" n="21/02/1905"><p><lb/>
+                <hi rend="underline">Tuesday Feb:21.</hi> Wrote for the mail all the<lb/> morning
+                and in the afternoon to drive<lb/> with <persName ref="#margaretclark"
+                    >Margaret</persName> &amp; Sister
+                    Adeline - up<lb/> Wynberg Park, thro' Newlands Avenue<lb/> &amp; into
+                Groote Schuur. They overwhelmed<lb/> with the beauty, I missing the <hi
+                    rend="underline">green</hi><lb/> of other seasons. Moreover the blue<lb/>
+                hydrangias were over.</p></div>
+            
+            <div type="entry" xml:id="Feb22" n="22/02/1905"><p><lb/>
+                <hi rend="underline">Wednesday Feb 22.</hi> Early to town and joined<lb/> by
+                    <persName ref="#margaretclark">Margaret</persName>. Meeting Mr. Fischer we<lb/>
+                went to see him &amp; the Jacobiz family<lb/> off by the express. Said goodbye to
+                sweet<lb/> little Ellie. Went round to the Bank.<lb/> Mr. Schultz &amp; agents
+                finding out if<lb/> all our goods were gone - all had<lb/> gone, so we hope to find
+                them north<lb/> on our arrival. Met Lady de Villiers<lb/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/3e1dcb6d-9ff6-432a-93c1-036d60420050" n="52v"/> and Mrs. Marais &amp; others, all very difficult<lb/>
+                to get away from. Home to lunch<lb/> &amp; then <persName ref="#margaretclark"
+                    >Margaret</persName> wrote for me.</p>
+            <p><lb/> It was <hi rend="underline">this</hi> afternoon that we went<lb/> all three to
+                drive as I have just<lb/> described for <hi rend="underline">Tuesday</hi>. And it
+                was<lb/> the previous day, that <persName ref="#margaretclark">M.</persName> &amp; I<lb/> drove together to Bergvliet, Diep
+                River<lb/> to call on the Purcells in their<lb/> charming new home in the old<lb/>
+                picturesque farm.</p></div>
+            
+            <div type="entry" xml:id="Feb23" n="23/02/1905"><p><lb/>
+                <hi rend="underline">Thursday Feb: 23</hi> Up early to catch 7.40<lb/> train &amp;
+                go to the Sauers. Took 2nd<lb/> class tickets but at Salt River<lb/> met the Sauer
+                trio &amp; had to get<lb/> in 1st with them. Met Mrs. v.d. Post<lb/> in the train. I
+                drove with Mr. Sauer<lb/> in the buggy &amp; ponies the others with<lb/> Con: Cloete
+                in the cape cart. Coolness<lb/> &amp; fruit on arrival in the well<lb/> remembered
+                beauty of the place.<lb/></p>
+            <p> Delicious to be amongst such<lb/> sweet &amp; friendly people once more.<lb/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/3e1dcb6d-9ff6-432a-93c1-036d60420050" n="53r"/> How impossible it is to put down a tithe<lb/> of what
+                passes daily in one's life leave<lb/> alone one's thoughts. Aunt Con came &amp;<lb/>
+                sat on my bed telling me much of<lb/> her wishes to go north &amp; help in the<lb/>
+                up-bringing of the Dutch girls - a work<lb/> much needed. But she dreads
+                hurting<lb/> her sister's feelings. She spoke of the<lb/> people she met at
+                Johannesburg &amp;<lb/> of Jaapie de Villiers as the one who most<lb/> interested
+                her - the strongman &amp; the<lb/> fine intellect - "but alas!" said she, "he<lb/>
+                showed no interest in me!!!"</p></div>
+            
+            <div type="entry" xml:id="Feb24" n="24/02/1905"><p><lb/>
+                <hi rend="underline">Friday Feb:24</hi> Delightful to be at Uitkijk<lb/> once more.
+                Yesterday afternoon we saw<lb/> them bringing in the grapes &amp; treading<lb/> out
+                the wine in the press. Wonderful<lb/> to see the juice flowing out in a great<lb/>
+                stream. Little Paul with his bare<lb/> feet newly washed trod merrily<lb/> with
+                Africa the Kaffir.</p>
+            <p><lb/> Today up early at 6am &amp; down<lb/> in the orchards to gather figs &amp; eat<lb/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/c994bc88-05b1-4d40-b899-1fb11d0d1265" n="53v"/> them ice-cold off the trees. For the<lb/> first time
+                too, I wandered in a<lb/> vineyard &amp; gathered my own bunches<lb/> of grapes
+                whither &amp; in what quantity<lb/> I would. Mrs. Sauer watered her<lb/> garden
+                &amp; at 8 we assembled for<lb/> breakfast. A delicious morning<lb/> reading,
+                writing &amp; sitting on the<lb/> stoep while <persName ref="#margaretclark"
+                    >Margaret</persName> rode with<lb/> Mr. Sauer for the post. The papers<lb/>
+                announce that the Paris Enquiry<lb/> exonerates the Russian admiral<lb/> which in my
+                own mind I always<lb/> thought it would - but we know<lb/> no details yet.</p>
+            <p><lb/> After lunch "Aunt Con" drove us<lb/> to Stellenbosch to Mrs. Marais who<lb/>
+                assembled the de Vos's &amp; Professor<lb/> Hofmeyr &amp; Mrs. Neethling to
+                meet<lb/> us &amp; they made me tell my<lb/> plans and ideas.</p>
+            <p><lb/> I called on Ella Neethling in her<lb/> bedroom &amp; talked about my troubles<lb/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/c994bc88-05b1-4d40-b899-1fb11d0d1265" n="54r"/> with regard to the translation of my<lb/> book. She
+                was willing to translate<lb/> short things like my new collection<lb/> of stories.
+                Home rather late &amp; to<lb/> dinner after wh: we talked about<lb/> lace &amp; Mrs.
+                Sauer showed me what<lb/> she had.</p></div>
+            
+            <div type="entry" xml:id="Feb25" n="25/02/1905"><p><lb/>
+                <hi rend="underline">Saturday Feb 25.</hi> I slept badly, and lay<lb/> still
+                listening to the crickets &amp; the<lb/> night-birds, &amp; thinking much of<lb/>
+                what the future has in store.<lb/> Margaret walked up the hill to<lb/> see the
+                sunrise &amp; at 9.30 the<lb/> Sauers departed leaving us to follow<lb/> by the next
+                train. It has been a<lb/> delightful visit. A memory to<lb/> carry with us.</p>
+            <p><lb/> We got away easily &amp; had a ¼ hour at<lb/> the station where the master Mr.
+                Greear<lb/> talked to us of the bad times &amp;<lb/> &amp; the docking of wages. £25
+                knocked<lb/> of his salary now. We tried<lb/> 2nd class &amp; found it very uncomfortable<lb/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/27681776-3625-48dc-94c3-85fa16b4f5a2" n="54v"/> much worse than English third.<lb/> At Cape Town came
+                Mr. van Zijl &amp;<lb/> Mr. Schultz to meet &amp; escort us<lb/> to luncheon, &amp;
+                I talked the whole<lb/> time to Mr. Schultz being very<lb/> glad of the opportunity
+                &amp; evidently<lb/> Mr. van Zijl had much to say<lb/> to <persName
+                    ref="#margaretclark">Margaret</persName>. Mr. Schultz<lb/> impressed me more
+                than ever<lb/> with his many sided kindness<lb/> to all &amp; sundry - even
+                sending<lb/> fruit once a week to Visser<lb/> the convict on the break
+                water.<lb/></p>
+            <p>He has hopes of helping Lily<lb/> Boshoff through the Wounded<lb/> Fund of which he
+                still has<lb/> a reserve. He showed me a<lb/> copy of the letter written by<lb/>
+                <persName ref="#gideonscheepers">Scheepers</persName> the day before his<lb/> execution, a farewell to Steyn<lb/> &amp; de Wet,
+                very brave &amp; manly.<lb/> He has the original in his<lb/> possession, which has recently<lb/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/27681776-3625-48dc-94c3-85fa16b4f5a2" n="55r"/> reached him by a circuitous route,<lb/> In the letter
+                <persName ref="#gideonscheepers">Scheepers</persName> asked to be<lb/> buried in Bloemfontein cemetery, but<lb/> said Mr.
+                Schultz the body can never be<lb/> removed for it was covered with<lb/> lime to burn
+                it to ashes.</p>
+            <p><lb/> Mr. Schultz put us into the train &amp;<lb/> helped us book our seats, and<lb/>
+                after we had had tea we wrote<lb/> 6 letters &amp; off to Wynberg to call<lb/> on
+                Mrs. Koopmans. She talked<lb/> much of the rival societies for<lb/> women formed and
+                especially<lb/> of <persName ref="#georgianasolomon">Mrs. Solomon's</persName> -
+                &amp; I was glad<lb/> to hear disapproved of Refuges<lb/> for the Boer women fallen
+                thro'<lb/> unusual events. I agreed &amp;<lb/> feel too that it <hi rend="underline"
+                    >stamps</hi> them.<lb/> She also fancies Mrs. S.S. has exaggerated<lb/> the
+                situation. She talked long &amp;<lb/> then we walked to Plumstead to<lb/> the <note
+                    place="above" type="gloss"><gap/></note> de Villiers' who made me stay<lb/> to
+                dinner. Nice quiet little people.<lb/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/1f0a3bc8-8628-40dd-b8f1-12f7a6843b89" n="55v"/> They put me into the tram &amp;<lb/> so home where I
+                found the<lb/> Murray family assembled to<lb/> enjoy music and joined them<lb/> in
+                that. Dr M. sings well.</p></div>
+            
+            <div type="entry" xml:id="Feb26" n="26/02/1905"><p><lb/>
+                <hi rend="underline">Sunday Feb 26</hi> Very hot. I wrote or packed<lb/> all the
+                morning - in the afternoon<lb/> came <persName ref="#margaretclark"
+                    >Margaret</persName> &amp; we walked to the<lb/> Chief Justice &amp; had an
+                hour's chat<lb/> with him &amp; Lady de Villiers &amp; found<lb/> there Mr. &amp;
+                Miss Philipson Stowe.</p>
+            <p><lb/> From there to the de Bruyns apologizing<lb/> for the untimely call on
+                clerical<lb/> folk. She grown stouter, &amp; nursing<lb/> a big baby. Much talk of
+                Brandfort.</p></div>
+            
+            <div type="entry" xml:id="Feb27" n="27/02/1905"><p><lb/>
+                <hi rend="underline">Monday Feb:27</hi> Up early &amp; to town for<lb/> final
+                arrangements - happed on<lb/> the Chief Justice &amp; went with him<lb/> &amp; Mrs.
+                Charlie Molteno. He told me<lb/> of the "Preservation Society" recently<lb/> started
+                &amp; how they hoped to protect<lb/> the castle, &amp; I spoke of the ruined<lb/>
+                cottage near Stellenbosch where<lb/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/1f0a3bc8-8628-40dd-b8f1-12f7a6843b89" n="56r"/> Piet Retief was born, &amp; this he thought<lb/>
+                should be purchased. He said <hi rend="underline">two</hi><lb/> farms at Colesberg
+                claimed to be<lb/> President Kruger's birthplace. Our<lb/> business done <persName
+                    ref="#margaretclark">Margaret</persName> &amp; I to <gap reason="illegible"
+                /><lb/> to call on Onye Jan - his wife busy<lb/> canning tomatoes - we at leisure
+                in<lb/> a cool library. He told me £200 had<lb/> been given as compensation for
+                the<lb/> misappropriation <del>loss</del>
+                <hi rend="underline">Lydenburg good</hi>, not adequate indeed<lb/> and only got
+                after endless procrastination<lb/> and when he had repeatedly &amp; strongly<lb/>
+                spoken to the governor.</p>
+            <p><lb/> Back to lunch having proudly purchased<lb/> a green veil like Mrs. Sauer's,
+                &amp; first<lb/> thing finished packing &amp; registered<lb/> boxes. The Murrays all
+                dressing to<lb/> attend Lady de Villiers' garden party<lb/> &amp; I sought a good
+                bath, &amp; prepared<lb/> our luncheon baskets. Dr &amp; Mrs. Murray<lb/> came to
+                town with us to see <persName ref="#martinussteyn">Mr. Steyn</persName><lb/> &amp;
+                the faithful Mr. Schultz &amp; many<lb/> others were in attendance.</p></div>
+            
+            <div type="entry" xml:id="Mar05" n="05/03/1905"><p><lb/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/a06e4926-9da1-4d91-88bc-058f470fd0fc" n="56v"/>
+                <hi rend="underline">Sunday March 5.</hi> All this week I could<lb/> not write, 2
+                days in the train and<lb/> the rest sheer fatigue from overwork<lb/> but more or
+                less we <hi rend="underline">are</hi> settled in<lb/> though every night I am
+                possessed<lb/> by fears that I have attempted<lb/> a task wholly beyond my
+                powers<lb/> &amp; my means. The history of our<lb/> journey up &amp; the warmth of
+                the<lb/> welcome to <persName ref="#martinussteyn">Mr. Steyn</persName> &amp; to me
+                I<lb/> have somewhat fully described<lb/> in my letter home, which after<lb/> being
+                typed I shall hope to get again<lb/> &amp; this set of letters will form a<lb/> kind
+                of journal. Tuesday Feb 28<lb/> We crossed the Karoo, which was<lb/> wonderfully
+                cooler than usual<lb/> &amp; in one place rain was falling<lb/></p>
+            <p>The President's welcome at Beaufort<lb/> West was very heartfelt &amp; so simple<lb/>
+                Mr. Weeber, the M.L.A and Dr. Neethling<lb/> headed the crowd &amp; talked much<lb/>
+                to me. I out next morning at<lb/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/a06e4926-9da1-4d91-88bc-058f470fd0fc" n="57r"/> Nowald Pont was the most moving<lb/> surprise when
+                some 20 prominent<lb/> Freestaters appeared to welcome<lb/> their President &amp;
+                escort him across<lb/> the border. The feeling was silent<lb/> but intense. We,
+                joined by the<lb/> Frasers left them at Springfontein<lb/> and came here. Moses to
+                be our<lb/> "boy" was at the station to meet us<lb/> and I learned he had just
+                come<lb/> out of gaol. (for no great offence).<lb/> A spider took Mr. &amp; Mrs.
+                Fraser, <persName ref="#margaretclark">Margaret</persName><lb/> &amp; self - with
+                much changing and<lb/> chopping of steeds - &amp; Sister A. &amp; the<lb/> two
+                little Steyns in the cape cart.<lb/> For 9 weary &amp; jolting miles we<lb/> crossed
+                the velt on a lovely day<lb/> with clouds flecking the sky<lb/> and not too much
+                sun. Emeline<lb/> Fraser had dinner ready for us<lb/> &amp; nice cool rooms &amp;
+                there for<lb/> two days we rested in comfort<lb/> as far as bed &amp; board went, but<lb/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/e2a2f85a-c5dc-419f-9443-801ccab0501b" n="57v"/> working every moment between<lb/> whiles to unpack
+                &amp; get our house<lb/> ready. Such a work! 50 cases<lb/> or more to be opened
+                &amp; unpacked<lb/> &amp; the house to be cleaned &amp; new<lb/> untrained servants.
+                We worked<lb/> till Saturday night more dead<lb/> than alive &amp; on Sunday
+                were<lb/> but fit to lie on the sofa.<lb/> That rested us, &amp; we started<lb/>
+                with fresh strength &amp; hope to<lb/> day (Monday) again. But at<lb/> moments in
+                the heat &amp; the<lb/> novelty - and the pressure<lb/> of work - everyone
+                wanting<lb/> direction at once my heart<lb/> nearly failed me &amp; my belief<lb/>
+                in my own scheme, the mass<lb/> of detail obliterating temporarily<lb/> the ideal in
+                my mind.<lb/> But now it dawns again &amp;<lb/> if my plan of getting Constance<lb/>
+                Cloete to come &amp; keep house<lb/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/e2a2f85a-c5dc-419f-9443-801ccab0501b" n="58r"/> for us succeeds - I think we may<lb/> yet prosper.
+                Nothing can exceed<lb/> the goodness &amp; hospitality of the<lb/> Frasers &amp; of
+                other people here<lb/> &amp; the eccentricities of widow<lb/> Boshoff &amp; of black
+                Moses.</p></div>
+            
+            <div type="entry" xml:id="Mar07" n="07/03/1905"><p><lb/>
+                <hi rend="underline">March 7. Tuesday</hi> A week in Philippolis<lb/> and we have
+                done nothing yet but<lb/> struggle in the heat with our un-<lb/> packing - our
+                servants - &amp; our settling<lb/> of the work room. The work has<lb/> been severe
+                &amp; at times I felt I must<lb/> break down. I had to be everywhere<lb/> at every
+                moment, &amp; my feet ache<lb/> unmercifully. Today <persName ref="#margaretclark"
+                    >Margaret</persName><lb/> who has been invaluable was<lb/> laid up and nursing
+                her has<lb/> been on the top of all else. She<lb/> looks better tonight &amp; I hope
+                it<lb/> will pass off, for I need her<lb/> much. People in the village are<lb/>
+                tired of waiting for us to show<lb/> ourselves, but we hope to be able<lb/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/a8192ff0-313e-4853-8bb6-c3f287107792" n="58v"/> to begin by the end of this week<lb/> that is - if
+                all goes well with<lb/> our various machines for work.<lb/></p>
+            <p>The idea occurred to me yesterday<lb/> to implore Constance Cloete to<lb/> come to
+                our rescue - to take<lb/> the entire housekeeping off my<lb/> hands &amp; give us
+                her sunny<lb/> presence. We have written &amp;<lb/> now also I shall telegraph<lb/>
+                for daily I see I cannot long<lb/> hold out at this rate.<lb/> We long to begin
+                teaching &amp; see<lb/> how it "takes" &amp; in what<lb/> directions we most need
+                to<lb/> develop the work. Each night<lb/> I am too tired to write, so<lb/> a journal
+                fails after all to<lb/> be the companion &amp; confidante<lb/> I had hoped to make
+                it.<lb/></p></div>
+            
+            <div type="entry" xml:id="Mar08" n="08/03/1905"><p><hi rend="underline">Wednesday March 8</hi>. A somewhat<lb/> lighter day. Rose at
+                5.45 and<lb/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/a8192ff0-313e-4853-8bb6-c3f287107792" n="59r"/> called the others &amp; made early tea,<lb/> drew my
+                bath water from the tap<lb/> in the yard before sunrise, &amp; dressed<lb/> just as
+                Moses arrived at 6.20am.<lb/> Set him to light the stove &amp; sweep<lb/> the
+                parlour &amp;c and hurried<lb/> round to help widow Boshoff get<lb/> the breakfast.
+                After a long struggle<lb/> this was ready at 7.45.</p>
+            <p><lb/> Set Davel to work superintending<lb/> Cook in flooring the new room<lb/> &amp;
+                worked at unpacking in<lb/> the workroom. Things getting<lb/> on. Mr. Fraser &amp;
+                General Nieuw<unclear>houdr</unclear><lb/> called. Wired to beg C. Cloete<lb/> to
+                come &amp; schemed to make<lb/> her comfortable. Rested 2 hours<lb/> &amp; worked
+                hard till 6pm.</p>
+            <p><lb/> Large cupboard made &amp; therein<lb/> packed our various work materials.<lb/>
+                Altogether felt more hopeful<lb/> &amp; sanguine about the future.<lb/> After supper
+                Emeline Fraser called.</p></div>
+            
+            <div type="entry" xml:id="Mar09" n="09/03/1905"><p><lb/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/c9add393-7c4c-4804-883e-fc2d76238db9" n="59v"/>
+                <hi rend="underline">Thursday March 9</hi> Very hot fatiguing<lb/> &amp; busy day,
+                but the workroom begins<lb/> to look shipshape, &amp; that consoles.<lb/>
+                <unclear>Early</unclear> my soul was refreshing by<lb/> a glorious great cactus
+                flower<lb/> sent in by Mr. Liefmann as a gift.<lb/> The scent was powerful, the
+                petals<lb/> feather like 6 inches across. It<lb/> blossoms at night and closes<lb/>
+                with the coming of the sun upon<lb/> it. I have seen one almost like<lb/> it in
+                Mexico. Later he gave one to<lb/> Margaret. During rest time I worked<lb/> at
+                Sister's bobbins &amp; filled them<lb/> as she seems rather helpless<lb/> about
+                everything - a person whose<lb/> fingers are all thumbs &amp; who<lb/> always knows
+                the way to do a<lb/> thing after she has been told.<lb/> I think she is a failure,
+                so<lb/> far as one can at present see<lb/> &amp; I reproach myself for not<lb/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/c9add393-7c4c-4804-883e-fc2d76238db9" n="60r"/> having more closely investigated<lb/> her <hi
+                    rend="underline">practical</hi> working capabilities.<lb/> In the evening I left
+                the house<lb/> the first time for a whole week<lb/> and went to congratulate Mrs.
+                Fraser<lb/> on her birthday. Mr. F. very poorly<lb/> and ordered to bed.</p>
+            <p><lb/> Poorly myself and very hot. All<lb/> day considering if Aunt Con will<lb/> come
+                to the rescue.</p></div>
+            
+            <div type="entry" xml:id="Mar10" n="10/03/1905"><p><lb/>
+                <hi rend="underline">Friday March 10</hi> Too tired to write.</p></div>
+            
+            <div type="entry" xml:id="Mar11" n="11/03/1905"><p><lb/>
+                <hi rend="underline">Saturday March 11.</hi> Yesterday I was<lb/> poorly &amp; it
+                was so hot &amp; we so<lb/> busy I could not write. Today<lb/> it was cooler &amp; I
+                set the convicts<lb/> to wash the school and had<lb/> a hard day myself as Mr.
+                Davel<lb/> did not turn up &amp; I had to<lb/> nail down C. Cloete's carpet
+                &amp;<lb/> do much work myself.</p>
+            <p><lb/> Sister A. struggled with her loom<lb/> she is evidently all at sea<lb/> over it
+                and I fear is anything<lb/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/ff7c97b1-3a7b-4646-bd69-7042fc471b70" n="60v"/>
+                <hi rend="underline">but</hi> an expert. By 4 o'clock<lb/> all was clean &amp; tidy
+                and<lb/> we had our first batch of<lb/> girls headed by Emeline<lb/> Fraser who
+                interpreted now<lb/> &amp; again. We explained &amp;<lb/> they listened
+                intelligently &amp;<lb/> all are to come &amp; begin on<lb/> Monday at 8am.</p>
+            <p><lb/> I am so far relieved but full<lb/> of qualms at Sister's too<lb/> evident
+                inefficiency.</p></div>
+            
+            <div type="entry" xml:id="Mar12" n="12/03/1905"><p><lb/>
+                <hi rend="underline">Sunday March 12</hi> Up early, &amp; at 6am<lb/> found to my
+                horror my fresh<lb/> 1 lb of butter put outside to keep<lb/> cool wholly gone. Milk
+                untouched.<lb/> Too evidently the work of fowls as<lb/> dish, butter paper &amp;
+                cloth all<lb/> left behind. Vexing. Went to<lb/> church with <persName ref="#margaretclark">M.</persName> Mr. Fraser was<lb/>
+                ill so an elder read interminably<lb/> in Dutch. Nearly fell asleep.<lb/> Home &amp;
+                wrote for mail. Finished<lb/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/ff7c97b1-3a7b-4646-bd69-7042fc471b70" n="61r"/> preparing our wheels &amp;c for next<lb/> day, &amp;
+                after tea called on Mrs. van<lb/> Heerden. She in bed. Told me<lb/> of the
+                governor's visit (Goold-Adams)<lb/> &amp; his fear of the word "compensation"<lb/>
+                &amp; how she told him she hoped<lb/> it would follow &amp; haunt him<lb/> day &amp;
+                night. After supper wrote<lb/> while Sister went to a singing<lb/> meeting.</p></div>
+            
+            <div type="entry" xml:id="Mar13" n="13/03/1905"><p><lb/>
+                <hi rend="underline">Monday March 13</hi> A red letter day<lb/> at 8 am began our
+                teaching.<lb/> The six girls came punctually<lb/> &amp; proved most nimble and<lb/>
+                intelligent. Kept Davel &amp; Moses<lb/> also at work. At 4pm they<lb/> came again
+                &amp; Miss Strauss began<lb/> with the knitting machine.</p>
+            <p><lb/> When it was over I down to the<lb/> parsonage to tell Mr. Fraser how<lb/> all
+                had gone off. Found him<lb/> in bed with bronchitis and<lb/> determined to see me.
+                He told<lb/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/88894968-3faa-4158-8b85-c79d1b9c5108" n="61v"/> me Mr. van Heerden the R.M.<lb/> had asked the
+                government<lb/> what (as an official) his<lb/> attitude was to be towards<lb/> me
+                &amp; the reply had been<lb/> to "help the enterprise."<lb/> Hence the convicts.</p>
+            <p><lb/> After supper walked with<lb/> <persName ref="#margaretclark">M.</persName> over the veld in the<lb/> moonlight.</p></div>
+            
+            <div type="entry" xml:id="Mar14" n="14/03/1905"><p><lb/>
+                <hi rend="underline">Tuesday March 14</hi> Second day of<lb/> teaching. Very hard
+                time 4 hours<lb/> of the morning as the weather<lb/> was unusually oppressive.
+                Busy<lb/> also trying to get the little<lb/> outside room in order, for the<lb/>
+                arrival of Constance Cloete.<lb/> I was up at 5.30 not having<lb/> slept after 3a.m.
+                and got<lb/> tea before six - dressed &amp; out<lb/> to work before 6.30. Made<lb/>
+                Moses sweep the school.</p>
+            <p><lb/>
+                <del>After</del> Mr. Lubbe called &amp; brought<lb/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/88894968-3faa-4158-8b85-c79d1b9c5108" n="62r"/> me a basket of tomatoes and<lb/> hoped we would
+                remain here<lb/> 20 years!!! After lunch so dead<lb/> beat I went to lie down
+                when<lb/> thunder began and hearing<lb/> the rain I had to rush out<lb/> and shut
+                doors &amp; windows<lb/> and take in curtains &amp;c:<lb/> It <hi rend="underline"
+                    >poured</hi>, filling the tanks<lb/> and washing the court clean.<lb/> School at
+                4 till six, girls<lb/> busy &amp; interested. Weaving<lb/> began. After school to
+                the<lb/> parsonage where Emeline found<lb/> with neuralgia unable to go<lb/> &amp;
+                meet Constance tomorrow.<lb/> Saw Mr. Fraser in bed still<lb/> very bad - says he is
+                besieged<lb/> by applications of girls wanting<lb/> to learn of me. Eat grapes<lb/>
+                &amp; came back. Found a<lb/> small snake in the front<lb/> passage wh: <persName ref="#margaretclark">M.</persName> tried to kill<lb/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/f1d78dca-ac4a-40d0-aa69-b29b39abffe3" n="62v"/> by throwing the Manchester<lb/> Guardian upon it
+                and<lb/> then stamping wildly.<lb/> I removed this &amp; killed it<lb/> with Uncle
+                Arthur's umbrella.<lb/> Moses said he killed two<lb/> today. Mrs. Bezuindenhout<lb/>
+                sent in a present of a<lb/> freshly baked Boer biscuit<lb/> or sort of bread cake
+                flavoured<lb/> with caraway seeds.</p>
+            <p><lb/> I am depressed by finding<lb/> daily how little Sister A.<lb/> knows about her
+                work.<lb/> Quite unable to put up her<lb/> heddles &amp; ties without<lb/> guidance
+                and models.<lb/> I cannot make up my<lb/> mind where best to put<lb/> C.C. <supplied>Constance Cloete</supplied> to sleep
+                &amp; whether I<lb/> ought to take the new room<lb/> &amp; give her mine.</p></div>
+            
+            <div type="entry" xml:id="Mar15" n="15/03/1905"><p><lb/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/f1d78dca-ac4a-40d0-aa69-b29b39abffe3" n="63r"/>
+                <hi rend="underline">Wednesday March 15.</hi> Joy Aunt Con's arrival</p></div>
+            
+            <div type="entry" xml:id="Mar16" n="16/03/1905"><p><lb/>
+                <hi rend="underline">Thursday .. 16</hi> Delightful rest for<lb/> house taken in
+                hand. Fresh hope.<lb/>
+                <del><gap/></del></p></div>
+            
+            <div type="entry" xml:id="Mar17" n="17/03/1905"><p><lb/>
+                <hi rend="underline">Friday March 17</hi> Glad to end our week's<lb/> schooling.
+                Much fatigued but<lb/> on the whole feel progress has<lb/> been made &amp; the last
+                half hour<lb/> we collected the girls and talked<lb/> over the work and its
+                prospects.<lb/> We are a little uncertain as to<lb/> their feeling on the subject.
+                After<lb/> school Mr. Liefmann &amp; Mr. van Heerden<lb/> came in to see the school
+                and<lb/> expressed much interest. Called<lb/> on Mr. Fraser who was on the sofa<lb/>
+                &amp; somewhat better but coughing<lb/> much &amp; asked him about housing<lb/>
+                Winifred de Villiers &amp; the girl from<lb/> Wolmaransstad also de
+                Villiers.<lb/></p>
+            <p>Sister A. very slow at her work<lb/> today - took 4 hours to thread<lb/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/d38d54f7-8fe3-4453-84ba-2c9ce32020ec" n="63v"/> about ⅔ of the heddles, and<lb/> had forgotten to tie
+                the shade<lb/> sticks which therefore did<lb/> not support the warp - I feel<lb/>
+                very hopeless about her.<lb/> Sat in the moonlight after<lb/> supper &amp; planned
+                work &amp; play<lb/> for Saturday.</p></div>
+            
+            <div type="entry" xml:id="Mar18" n="18/03/1905"><p><lb/>
+                <hi rend="underline">Saturday March 18</hi> Very busy all day<lb/> preparing our
+                week's work, doing<lb/> accounts and so on. Not till<lb/> after tea did we go out. I
+                to<lb/> sit on the nearer Kopje where I<lb/> watched the sunset. <del><gap/></del><lb/>
+                <add>&amp; wrote</add> letters. In the evening we each<lb/> chose &amp; read poetry
+                aloud.</p></div>
+            
+            <div type="entry" xml:id="Mar19" n="19/03/1905"><p><lb/>
+                <hi rend="underline">Sunday March 19</hi> All enjoying the<lb/> pleasant meals &amp;
+                order wh<lb/> C. Cloete has brought into the<lb/> house. Moses with bare feet<lb/>
+                waits table in a clean apron,<lb/> &amp; Mrs. Booshoff is made happy<lb/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/d38d54f7-8fe3-4453-84ba-2c9ce32020ec" n="64r"/> by getting away early to bed.<lb/> We worked or wrote
+                mail letters<lb/> all Sunday. I decided to write<lb/> for Miss Jones to come as
+                Sister<lb/> A.'s mistakes continue &amp; I cannot<lb/> trust her work at all.</p>
+            <p><lb/> After tea a delicious walk with<lb/> C.C.<supplied>Constance Cloete</supplied> when we looked for cactus<lb/>
+                flowers and sat on a boulder<lb/> &amp; read <persName ref="#williamwatson">Wm. Watson</persName> aloud.</p></div>
+            
+            <div type="entry" xml:id="Mar20" n="20/03/1905"><p><lb/>
+                <hi rend="underline">Monday March 20</hi> The new girls<lb/> arrived, but to our dismay<lb/>
+                <unclear>Susie</unclear> Siebert one of the most promising<lb/> old ones sent word
+                &amp; later came<lb/> to excuse herself from further<lb/> attendance. A blow.
+                Jealousy<lb/> I am sure, because there was<lb/> no knitting machine for her
+                use.<lb/></p>
+            <p>A hard day but fairly satisfactory.<lb/> Saw Mr. Fraser in the evening<lb/> and
+                discussed pros &amp; cons of<lb/> Winifred de Villiers &amp; the Wolmaransstad<lb/>
+                girl coming.</p></div>
+            
+            <div type="entry" xml:id="Mar21" n="21/03/1905"><p><lb/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/5cca974a-b4ec-4e1d-8ec2-646d30f9b1b3" n="64v"/>
+                <hi rend="underline">Tuesday March 21</hi> Hard work. Teaching<lb/> new girls. Found
+                Sister's loom<lb/> put up wrong &amp; all helped to<lb/> alter it. Very hard day.
+                Much<lb/> upset by Sister's incompetency.<lb/> Thought of cabling for Miss
+                Jones.</p></div>
+            
+            <div type="entry" xml:id="Mar22" n="22/03/1905"><p><lb/>
+                <hi rend="underline">Wednesday March 22.</hi> Cooler day -<lb/> grey &amp; showery.
+                Steady work.<lb/> With 12 girls regular &amp; eager.<lb/> Found Sister could not
+                tie<lb/> heddles right for <hi rend="underline">easy twill</hi> -<lb/> spent siesta
+                time doing it<lb/> myself. Cabled to England<lb/> for Miss Jones cost £1.17.6.<lb/>
+                Hopeless to go on with her.<lb/> Wrote yesterday to W. de Villiers<lb/> &amp; her
+                mother asking her<lb/> to come here for a month<lb/> as my guest &amp; to
+                remain<lb/> if it suits her. Walked with<lb/> Margaret after school and<lb/> enjoyed
+                the damp air &amp; wet<lb/> soil. Mr. Postma Minister<lb/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/5cca974a-b4ec-4e1d-8ec2-646d30f9b1b3" n="65r"/> of Rustenburg offers me his daughter<lb/> apparently
+                at <hi rend="underline">my</hi> expense.<lb/> Moses quite another boy under<lb/>
+                Constance's training.</p></div>
+            
+            <div type="entry" xml:id="Mar23" n="23/03/1905"><p><lb/>
+                <hi rend="underline">Thursday March 23</hi> Full day.<lb/> Up by 6am not having
+                slept<lb/> much from colder air &amp; paucity<lb/> of blankets. Spun Angora
+                before<lb/> breakfast. Hard school.</p>
+            <p><lb/> Mail day &amp; brighter letters from<lb/>
+                <persName ref="#maryhobhouse">Aunt Mary</persName> who wrote from Sandhurst.<lb/>
+                After dinner washed wool Constance<lb/> helping me. Dyed fleece &amp; to school<lb/>
+                a new girl, deaf, came making<lb/> 13. Gift of a loaf in the afternoon<lb/> &amp;
+                flowers &amp; eggs in the forenoon.<lb/> Hardly a day passes without these<lb/>
+                gifts in kind. Walked with<lb/> <persName ref="#margaretclark">M.</persName> on the Kopje &amp; rejoiced to hear<lb/> her say
+                she has never been so<lb/> happy in her life!</p>
+            <p><lb/> I fear with Sister A. it is different.</p></div>
+            
+            <div type="entry" xml:id="Mar24" n="24/03/1905"><p><lb/>
+                <hi rend="underline">Friday March 24.</hi> Last day of second<lb/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/35138548-e744-47b7-bba2-51c8b87bd473" n="65v"/> week's teaching. A 30 hour week,<lb/> odd so short a
+                sum of hours<lb/> should exhaust us so. Girls<lb/> very good. 13 of them.
+                Cannot<lb/> take more at present. <del>Three</del> Four<lb/> presents today Mrs.
+                Lubbe, milk<lb/> Mr. van Schalkwyk, mielies &amp;<lb/> melon. Mrs. Sugman,
+                plants.<lb/> Mrs. v. Heerden, springbok.</p>
+            <p><lb/> Very tired. Emeline Fraser visited<lb/> school &amp; seemed pleased.<lb/>
+                Sister rushed off the moment<lb/> it was over &amp; left me to put<lb/> everything
+                away. Very tired.<lb/> Gave Moses a comb - he much<lb/> pleased. Ups &amp; downs of
+                mind<lb/> about our enterprise - one day<lb/> all hope the next all despair.<lb/>
+                All depends upon plenty of<lb/> ardent spinners.</p></div>
+            
+            <div type="entry" xml:id="Mar25" n="25/03/1905"><p><lb/>
+                <hi rend="underline">Saturday March 25</hi> Lady Day. Found<lb/> that C. Cloete had
+                never heard of<lb/> Lady Day. Curious. No teaching<lb/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/35138548-e744-47b7-bba2-51c8b87bd473" n="66r"/> but much work. Experimented all<lb/> the morning with
+                dyes &amp; washing &amp;<lb/> found the walnut husk answer best.<lb/> Afterwards I
+                tested this dyed fleece<lb/> in the spinning &amp; found it excellent.<lb/> After
+                lunch the others to walk on<lb/> the Kopje with intent to choose a<lb/> spot for us
+                all to go and sleep<lb/> out tonight. However thunder<lb/> came on &amp; this plan
+                fell through.<lb/> I stayed at home &amp; took opportunity<lb/> to sort my papers
+                and try to<lb/> arrange my books, a heartrending<lb/> affair as so many are
+                    <del>absent</del> missing.<lb/> In the evening we read
+                    <unclear>Paraselsus</unclear><lb/> aloud &amp; <unclear>Neli</unclear> v.
+                Heerden came<lb/> in &amp; listened. A great bunch<lb/> of flowers was sent to
+                me.</p></div>
+            
+            <div type="entry" xml:id="Mar26" n="26/03/1905"><p><lb/>
+                <hi rend="underline">Sunday March 26</hi> Lovely morning<lb/> after the thunder. I
+                stayed in<lb/> bed till 6.30 and drank my<lb/> milk there. After breakfast<lb/> took
+                writing things &amp; <persName ref="#margaretclark">M.</persName> and I to<lb/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/5a4ab2ed-1c37-4886-bb93-caa391577784" n="66v"/> the top of the Kopje where she<lb/> wrote an article
+                for the M.G.<lb/> and I wrote my circular<lb/> letter &amp; other mail letters.<lb/>
+                Suggested to E.D.B.<supplied>Eliza Dorothy Bradby</supplied> to send not<lb/> only
+                Miss Jones but also my<lb/> lace teacher from Venice<lb/> Signora Moratti.</p>
+            <p><lb/> Walked home at noon - very hot<lb/> Dined &amp; to sleep. Then I wrote<lb/>
+                again &amp; after tea spun my<lb/> dyed samples &amp; at dusk<lb/> had a rum with
+                Constance.<lb/> We are all concerned about<lb/> Sister A. and our joint and<lb/>
+                several inability to get on<lb/> with her. She is affected &amp;<lb/> unnatural,
+                &amp; do what we may<lb/> we cannot mix.</p></div>
+            
+            <div type="entry" xml:id="Mar27" n="27/03/1905"><p><lb/> Monday March 27.<lb/> Busy day. All up early. Girls<lb/> showed more grip of
+                work. Cloudy<lb/> afternoon &amp; heavy rain which<lb/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/5a4ab2ed-1c37-4886-bb93-caa391577784" n="67r"/> lasted all night. Sore throat &amp; chill<lb/> dosed
+                by the 2 homeopathists with<lb/> arsenicum. Read <persName ref="#percyshelley">Shelley</persName> aloud<lb/> Euganean Hills
+                &amp; Sensitive Plant.<lb/> Mrs. Bezuidenhout sent a great<lb/> loaf of bread.
+                Delicious. Feeling<lb/> poorly &amp; unhappy about <persName ref="#margaretclark"
+                    >Margaret</persName><lb/> who undoubtedly feels the close<lb/> air of her
+                bedroom &amp; must be<lb/> moved. Hard to arrange. Lay<lb/> awake all night
+                planning.<lb/> Decided to hire a room in village<lb/> for Sister A. and give <persName ref="#margaretclark">M.</persName> her
+                room.<lb/> Overslept myself, &amp; told Constance<lb/> my plan when she called
+                me.<lb/> She agreed to enquire.<lb/>
+                <del><gap/></del></p>
+            <p><lb/> The only news I have had<lb/> to date as the "Friend" still tarries.<lb/> Ordered it 22 days ago!</p></div>
+            
+            <div type="entry" xml:id="Mar28" n="28/03/1905"><p><lb/>
+                <hi rend="underline">Tuesday March 28</hi> Up late. Breakfast<lb/> 7.15. Very wet.
+                Steady rain all day<lb/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/d20f86aa-9ff2-4cf5-8f0e-70ff807cf9d5" n="67v"/> Much doctored by all the kind<lb/> friends &amp; got
+                through school wrapped<lb/> in a shawl and M's woollen<lb/> waistcoat. Much happier
+                about<lb/> the work - girls grasping the<lb/> sequence of processes, &amp;
+                worked<lb/> well. Steady heavy rain.</p></div>
+            
+            <div type="entry" xml:id="Mar29" n="29/03/1905"><p><lb/>
+                <hi rend="underline">29th. Wednesday March</hi>. Still steady rain.<lb/> Will fill
+                dams &amp; soften ground<lb/> for ploughing but alas! too late<lb/> for many of the
+                crops. Slept<lb/> late and by much kind<lb/> nursing from <persName ref="#margaretclark">M.</persName> &amp; C. <supplied>Constance</supplied> felt
+                better<lb/> &amp; equal to work. Girls improved<lb/> all except Marte Sugmann -<lb/>
+                flax spinners promoted to wool.<lb/> In the afternoon dyed with walnut<lb/> husks
+                &amp; pomegranates.</p>
+            <p><lb/> Telegram from W. de Villiers to<lb/> say considering my offer &amp; letter<lb/>
+                to follow. No "Friend" yet<lb/> come.
+                Tiresome to miss so<lb/> many weeks' daily news.<lb/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/d20f86aa-9ff2-4cf5-8f0e-70ff807cf9d5" n="68r"/> I hear Mrs. v. Heerden will let us have<lb/> a stoep
+                room, very kindly and insists<lb/> for nothing at all - much as I<lb/> wish to pay.
+                So I hope to arrange<lb/> for Sister to go over there to sleep<lb/> &amp; <persName
+                    ref="#margaretclark">Margaret</persName> to take her room. I<lb/> feel sure M.
+                feels the bad close<lb/> air of her room in the court.</p>
+            <p><lb/> Moses has taken French leave<lb/> and disappeared all the afternoon.<lb/>
+                Margaret overdone and poorly. We<lb/> made her lie in C's <supplied>Constance</supplied> room. She very<lb/> angry
+                thereat and C. on the<lb/> parlour sofa. Box and coxing as<lb/> regards their
+                clothes. All to bed<lb/> at 8.pm</p></div>
+            
+            <div type="entry" xml:id="Mar30" n="30/03/1905"><p><lb/>
+                <hi rend="underline">Thursday March 30</hi> Pouring rain in the<lb/> night awakened
+                us all. Did not<lb/> sleep after 3am. Fortunate M.<lb/> had been kept out of her
+                room<lb/> as the wet streamed through the<lb/> ceiling &amp; all was damp. I
+                kept<lb/> her on the sofa all the morning<lb/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/9b5cf98e-efc4-4ece-a16b-6fb1caa7eeab" n="68v"/> &amp; sent her for a walk when the<lb/> sun came out.
+                Moses arrived<lb/> saying he had been very sick the<lb/> previous day. I dosed him
+                with<lb/> chlorodyne with success.</p>
+            <p><lb/> One month in Philippolis is over<lb/> &amp; I have as yet barely realised<lb/>
+                I am here. In fact I am not<lb/> living in Philippolis but in an<lb/> idea. It seems
+                to be taking<lb/> solid permanent form &amp; shape<lb/> &amp; there is much to
+                encourage<lb/> in the aptitude &amp; intelligence<lb/> &amp; eagerness of the first
+                13 scholars.<lb/> A new one joins us tomorrow.<lb/> Our dyeing of yesterday seems
+                a<lb/> success - a delicate green and<lb/> brown. Two gifts of flowers<lb/> today.
+                Continued &amp; heavy<lb/> showers. <persName ref="#margaretclark"
+                    >Margaret</persName> in school in<lb/> the afternoon. Constance an<lb/>
+                angel.</p></div>
+            
+            <div type="entry" xml:id="Mar31" n="31/03/1905"><p><lb/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/9b5cf98e-efc4-4ece-a16b-6fb1caa7eeab" n="69r"/>
+                <hi rend="underline">Friday March 31</hi> Lovely day, bright and<lb/> cool. My voice
+                gone. Trouble with<lb/> Sister A. She asked to speak to<lb/> me &amp; just before
+                dinner did so<lb/> in parlour. Had it out. I liked<lb/> her better than ever before.
+                She<lb/> came out well in a singularly<lb/> trying position. Said she only<lb/>
+                wanted now to enquire what<lb/> could be done to remedy matters.<lb/> Offered to
+                take less or even no<lb/> salary. I told her I had sent<lb/> for an expert and I thought<lb/>
+                <hi rend="underline">the</hi> best thing would be to<lb/> terminate her engagement
+                on<lb/> this lady's arrival - &amp; she agreed.<lb/> Also meanwhile to teach<lb/>
+                herself by experiment.</p>
+            <p><lb/> She came to dinner but retired<lb/> to cry. I gave her sal volatile<lb/> and
+                sent her to walk with<lb/> the others. Lay myself in<lb/> the sand to rest much shaken<lb/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/392ac591-dd35-4eb8-8adf-de9e1c03321a" n="69v"/> Mr. Fraser came &amp; talked awhile<lb/> before
+                school. Sarie Bezuidenhout<lb/> the new girl very pretty sweet<lb/> &amp; clever.
+                Spun as if by<lb/> nature on a difficult wheel.<lb/> Extraordinary. Found
+                Hester<lb/> v. Schalkwyk had attempted<lb/> home dyeing. <hi rend="underline"
+                    >Very</hi> encouraging.<lb/> Walked out with Constance<lb/> sunset delicious.
+                All tired<lb/> and <hi rend="underline">very</hi> glad 'tis Friday.</p>
+            <p><lb/> Only present today walnut<lb/> leaves &amp; tins of husks!</p></div>
+            
+            <div type="entry" xml:id="Apr01" n="01/04/1905"><p><lb/>
+                <hi rend="underline">Saturday April 1st.</hi> Voice bad. Stayed in<lb/> bed to
+                breakfast. Pulled wool<lb/> in the court with <persName ref="#margaretclark">M.</persName> &amp; began to<lb/> spin it. Mrs.
+                v. Heerden called &amp;<lb/> told me room was ready. Then<lb/> I gave Sister A. her
+                salary and<lb/> asked her to move into the new<lb/> room. She willing. Also
+                begged<lb/> she might not be sent home<lb/> earlier than the six months<lb/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/392ac591-dd35-4eb8-8adf-de9e1c03321a" n="70r"/> lest her Father be hurt. Struggled<lb/> with her loom
+                all the morning.<lb/> After dinner we moved the<lb/> things over and helped her
+                to<lb/> settle in. She brighter. Busy<lb/> preparing for guests. Laid out<lb/> tea
+                in the dining room, but<lb/> only a few came! Mr. Marais,<lb/> Comdt. du Toit, Mrs.
+                Lubbe, old Mr.<lb/> Lubbe &amp; wife, Mrs. <unclear>Tarr</unclear>, Miss de
+                Villiers,<lb/> Mrs. Louw, Mrs. Sugmann, Miss<lb/> Young &amp; Bultermann. My
+                voice<lb/> departed. Mrs. Marais the most<lb/> interesting of the party.</p>
+            <p><lb/> Later Mrs. Sugmann sent a lovely<lb/> dish of figs. Had a long<lb/> talk with
+                Emeline Fraser about<lb/> the girls &amp; the work. She most<lb/> helpful. All glad
+                the air is<lb/> cleared about Sister A. and a<lb/> rather false position
+                mended.<lb/> Rather annoyed with <persName ref="#margaretclark">M.</persName> for<lb/> taking too much direction of<lb/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/43a0ebda-56ba-46cd-a813-89f712278e28" n="70v"/> affairs upon herself, both as<lb/> regards details of
+                house and<lb/> of my line of conduct.</p></div>
+            
+            <div type="entry" xml:id="Apr02" n="02/04/1905"><p><lb/>
+                <hi rend="underline">Sunday April 2.</hi> Very low physically.<lb/> No voice all
+                day. In bed to breakfast<lb/> kept quiet. Wrote mail letters, a<lb/> long one to
+                E.D. Bradby about my<lb/> troubles with Sister A.</p>
+            <p><lb/> About 11. arrived her cable saying<lb/> Miss Jones could not come till
+                autumn,<lb/> possible not then. Again I proposed<lb/> Miss Grasett or Miss
+                Heard.</p>
+            <p><lb/> Constance &amp; <persName ref="#margaretclark">M.</persName> busy arranging their<lb/> rooms after the change and
+                Sister<lb/> A. settled into her room at the<lb/> van Heerdens. Went a short<lb/>
+                walk rather late &amp; sat under<lb/> the aloe shade as I had neither<lb/> strength
+                or voice. To bed very<lb/> early, rubbed with Elliman.</p></div>
+            
+            <div type="entry" xml:id="Apr03" n="03/04/1905"><p><lb/>
+                <hi rend="underline">Monday April 3</hi> Breakfast in bed.<lb/> Voice a little bit
+                better. Very little<lb/> in school. Sat in the "Green room<supplied>"</supplied> &amp;<lb/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/43a0ebda-56ba-46cd-a813-89f712278e28" n="71r"/> prepared a lace sampler for Constance<lb/> also in
+                the afternoon gave her the<lb/> first lesson. Long visit from Emeline<lb/> Fraser
+                who kindly found a Kaffir<lb/> girl for us in room of Mrs. Boshoff<lb/> who asked to
+                treble her wages &amp; also<lb/> we are glad to get rid of. <persName ref="#margaretclark">M.</persName> read<lb/> aloud
+                "Persuasion" in the evening.</p></div>
+            
+            <div type="entry" xml:id="Apr04" n="04/04/1905"><p><lb/>
+                <hi rend="underline">Tuesday April 4</hi> Lovely weather. Still<lb/> bed for
+                breakfast, but I felt stronger<lb/> &amp; was more in school. Dialina<lb/> Reusburg
+                in school, new girl.</p>
+            <p><lb/> Began Angora spinning. Finished<lb/> brown wool. After dinner slept, very<lb/>
+                tired. Mr. Steytler came to see me<lb/> about the wools &amp; I offered to take<lb/>
+                back the lamb's wool - too short.<lb/> Lace lesson. Dr &amp; Mrs. Strachan<lb/>
+                called. After school walked with<lb/> <persName ref="#margaretclark">M.</persName> to the cemetery. Jacoba
+                    <unclear>Gurlin</unclear><lb/> began knitting machine.</p>
+            <p><lb/> Cable to E.D.B <supplied>Eliza Dorothy Bradby</supplied> to <unclear>urge</unclear> Miss Grasset<lb/> or Miss Heard to
+                come cost £2.17.6</p></div>
+            
+            <div type="entry" xml:id="Apr05" n="05/04/1905"><p><lb/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/26ee6d6c-7799-4d99-8161-331619355120" n="71v"/>
+                <hi rend="underline">Wednesday April 5</hi> Constance away to the<lb/> Geitenbach's
+                farm with E. <supplied>Emeline</supplied> Fraser<lb/> to spend the day. Brought home<lb/> flowers, plants &amp;
+                mealies.<lb/> We alone, found conversation<lb/> hard, somehow Sister A. <hi
+                    rend="underline">cannot</hi><lb/> join in it, &amp; studiously to in-<lb/> clude
+                her now that she is no<lb/> longer <add>a stranger but</add> an inmate feels
+                artificial<lb/> &amp; forced besides being very<lb/> fatiguing. The 15 girls
+                were<lb/> good &amp; interested but the day was<lb/> oppressive &amp; we teachers
+                found<lb/> the time long. <persName ref="#margaretclark">M.</persName> &amp; I half<lb/> swept the school at 6. as<lb/> Moses
+                did not appear &amp; the<lb/> light begins to fade early.<lb/> Working with Angora
+                &amp; <persName ref="#margaretclark">Margaret</persName><lb/> has produced a baby's
+                sock<lb/> with this wool.</p>
+            <p><lb/> No "Friend" arrived yet, &amp; it<lb/> becomes
+                tiresome to have no<lb/> daily paper.</p>
+            <p><lb/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/26ee6d6c-7799-4d99-8161-331619355120" n="72r"/> In the evenings we are reading aloud<lb/>
+                "Persuasion". My voice has failed<lb/> &amp; now <persName ref="#margaretclark"
+                    >Margaret</persName> is reader, but<lb/> I fancy it tries her a little.<lb/> We
+                go to bed at 9. pm, &amp; glad<lb/> to get there. Mr. Fraser is gone to<lb/>
+                Bloemfontein.</p></div>
+            
+            <div type="entry" xml:id="Apr06" n="06/04/1905"><p><lb/>
+                <hi rend="underline">Thursday April 6</hi> Mail day. I felt<lb/> very poorly &amp;
+                staying in bed for<lb/> breakfast was a trifle late for<lb/> school. A new girl
+                making it 16.<lb/> The black girl Marie arrived<lb/> &amp; looks promising. Mrs.
+                Boshoff<lb/> departed &amp; Moses delighted.<lb/> Margaret was saddened by the<lb/>
+                death of her great aunt aged 88<lb/> the news of which reached her.<lb/> Davel
+                brought the pipe and<lb/> put up the stove so now we<lb/> can wash &amp; dye. Corded
+                the<lb/> stoep to prevent impudent<lb/> prying at the windows.<lb/> Work full of
+                interest but anxious<lb/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/8b5829b8-caad-4a3c-b51a-94b14fc1e5ed" n="72v"/> my one home letter from Aunt<lb/> Mary - short and
+                rather shaky<lb/> obviously written with effort,<lb/> but if she were gone I
+                should<lb/> have no regular correspondent<lb/> none to whom I <hi rend="underline"
+                    >ought</hi> to write<lb/> or from whom I am <hi rend="underline">sure</hi> of
+                a<lb/> letter. In fact "home" exists not<lb/> for me and I begin to fear<lb/> never
+                will. The last days of<lb/> this year are passing &amp; on Sunday<lb/> I shall be 45
+                and at that<lb/> age one cannot hope or expect<lb/> that the one longed for joy
+                of<lb/> a real home ever will be given.<lb/> One looks back on the long<lb/> weary
+                years of toil and travel<lb/> &amp; discomfort and one longs<lb/> for a settlement
+                &amp; certainty<lb/> of rest bodily &amp; mental.<lb/> Will my 46th year bring
+                it?<lb/> I dare hope no more.<lb/>
+                 </p>
+            </div>
+        </body>
+    </text>
+</TEI>
