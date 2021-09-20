@@ -88,9 +88,9 @@
             </projectDesc>
             <editorialDecl>
                 <p>In transcribing Emily Hobhouse's 1905 journal, I have maintained the form and content of the original text as much as possible. 
-                   Original spellings and punctuation are retained, as are deletions and additions by the author. Only in places where this may cause 
-                   confusion have I added editorial notes. Capitalisations have been standardised throughout, due to Hobhouse's somewhat erratic handwriting, 
-                   and passages where the original text is unclear are marked.   
+                    Original spellings and punctuation are retained, as are the author's deletions - denoted by a <unclear>stroke through the passage</unclear> - and additions - enclosed by <add>angle brackets</add>. Only in places where this may cause 
+                   confusion have I made editorial additions - enclosed by <supplied>square brackets</supplied>. Capitalisations have been standardised throughout, due to Hobhouse's somewhat erratic handwriting, 
+                   and unclear words are followed by a question mark in square brackets - [?].
                 </p>
                 
             </editorialDecl>
@@ -227,9 +227,7 @@
                     <person xml:id="filsonyoung">
                         <persName ref="https://www.wikidata.org/wiki/Q5449215">Filson Young</persName>
                     </person>
-                    <person xml:id="amymackarness">
-                        <persName>Amy Mackarness</persName>
-                    </person>
+                    
                     <person xml:id="stephenhobhouse">
                         <persName ref="https://www.wikidata.org/wiki/Q7609463">Stephen Hobhouse</persName>
                     </person>
@@ -405,8 +403,7 @@ the Standard Bank.<lb/></p>
                 <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/6f5f024b-1a3f-4b22-ad9f-e1f6edc8ff29" n="5v"/>
                 <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/6f5f024b-1a3f-4b22-ad9f-e1f6edc8ff29" n="6r"/> outlining my plans &amp; prospects but<lb/> partly
                 about her work for the Speaker.<lb/> Metherell fetched me in the carriage<lb/> &amp;
-                on the way home I called at Lady<lb/> Osborne Morgan's (out of town) &amp; <persName
-                    ref="#amymackarness">Mrs.<lb/> Mackarness</persName> (not at home). Got soap
+                on the way home I called at Lady<lb/> Osborne Morgan's (out of town) &amp; Mrs.<lb/> Mackarness (not at home). Got soap
                 and<lb/> plate powder, after trying 3 chemists,<lb/> and to home.<lb/></p>
 </div>
             
@@ -443,8 +440,7 @@ the Standard Bank.<lb/></p>
                 to<lb/> be instant &amp; so off they went<lb/> to the docks. Afterwards I<lb/>
                 regretted I had not sent them<lb/> straight back to Finland, for<lb/> the other kind
                 had been<lb/> ordered. </p><p>Mrs. Tristram came<lb/> to work &amp; fit dresses all
-                the<lb/> afternoon - At 8 o'clock I to<lb/> dine with <persName ref="#amymackarness"
-                    >Mrs. Mackarness</persName> alone<lb/> for a chat. This was very<lb/> enjoyable
+                the<lb/> afternoon - At 8 o'clock I to<lb/> dine with Mrs. Mackarness alone<lb/> for a chat. This was very<lb/> enjoyable
                 &amp; she told me all about<lb/> their difficulties in making two<lb/> ends meet and
                 her arrangements<lb/> to sell the house &amp; move into<lb/> a cheaper quarter. But the<lb/>
                     <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/90c3aa31-d3b9-4647-ba92-5ecad949324f" n="8v"/>
@@ -810,8 +806,7 @@ the Standard Bank.<lb/></p>
                 being no<lb/> bail for high treason, he got it reduced to<lb/> some offence under
                 the Press Laws(?) &amp;<lb/> took bail for £500 &amp; two sureties.<lb/> But Pakeman
                 escaped over the border<lb/> leaving his two sureties to pay which<lb/> they did. He
-                told me also of the way<lb/> in which he <note type="gloss" place="above"
-                    >Pakeman</note> sent the false cables<lb/> from Johannesburg which poisoned<lb/>
+                told me also of the way<lb/> in which he <add>Pakeman</add> sent the false cables<lb/> from Johannesburg which poisoned<lb/>
                 public opinion here before the war.<lb/>
                 <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/891c93b9-a59a-42b2-a17f-0f7d51c50531" n="26r"/> as these cables would have been stopped<lb/> in
                 Johannesburg by <persName ref="#frederickkrause">Dr. Krause</persName> - they<lb/>
@@ -842,12 +837,12 @@ the Standard Bank.<lb/></p>
                 lunch,<lb/> taking only 20 minutes from Hampstead.<lb/> I had time to call for my
                 shoes<lb/> write more notes &amp; mend my<lb/> black silk gown before lunch.</p>
             <p><lb/> After lunch in the Victoria to<lb/>
-                <persName ref="#amymackarness">Mrs. Mackarness's</persName> to the Committee<lb/> 2
+                Mrs. Mackarness's to the Committee<lb/> 2
                 members ill so only 4 of us.<lb/> Mr. Gooch clear &amp; kind but hurried<lb/> and
                 looking very ill. I was glad to get<lb/> it over &amp; to know we had £1100 odd at our<lb/>
                 <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/ebf849db-9512-49f2-9895-c216402e3b49" n="27r"/> backs. Miss P. was to retain Hon Treasurship<lb/>
-                &amp; a new secretary was to be found. <persName ref="#amymackarness">Mrs.
-                    Mackarness</persName><lb/> looking uncommonly young &amp; fresh in black<lb/>
+                &amp; a new secretary was to be found. Mrs.
+                    Mackarness<lb/> looking uncommonly young &amp; fresh in black<lb/>
                 with a fichu of soft green silk. I walked<lb/> home, it being lovely weather though
                 cold, &amp;<lb/> got through much writing before dinner.</p>
             <p><lb/> Sir Wm. Farrer dined, thus making 4, and so<lb/> we sat downstairs - but unfortunately<lb/>
@@ -863,8 +858,7 @@ the Standard Bank.<lb/></p>
                 <hi rend="underline">Wednesday Jan 18</hi> The days slip past &amp; now<lb/> but six
                 are left. I wonder what will come<lb/> of it all - if we shall succeed - or if<lb/>
                 <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/4b52bdb6-f4e3-4ac6-b5df-d68d3eda2ed9" n="27v"/> only failure will result. Kind letters have<lb/> come
-                to me from Mr. Bryce, Bishop of<lb/> Hereford <note place="above" type="gloss"
-                        ><persName ref="#peterkropotkin">Prince Kropotkin</persName></note> and
+                to me from Mr. Bryce, Bishop of<lb/> Hereford <add><persName ref="#peterkropotkin">Prince Kropotkin</persName></add> and
                 others. I go on as it were<lb/> seeing clearly only one step, not knowing<lb/> if it
                 will eventually entail a permanent<lb/> life in S. Africa. This, if it comes
                 about,<lb/> can't be done on my present income<lb/> the utmost limits of which I
@@ -915,8 +909,7 @@ the Standard Bank.<lb/></p>
                 &amp;<lb/> so home. <persName ref="#henryhobhouse">Henry</persName> not gone to bed,
                 so a few<lb/> words with him in the drawing room when<lb/> he showed me the wording
                 for <persName ref="#arthurhobhouse">Uncle<lb/> Arthur's</persName> tablet to be
-                placed in Pitcombe<lb/> Church, &amp; the verse he <note place="above" type="gloss"
-                        ><persName ref="#arthurhobhouse">Uncle Arthur</persName></note> had
+                placed in Pitcombe<lb/> Church, &amp; the verse he <add><persName ref="#arthurhobhouse">Uncle Arthur</persName></add> had
                 himself<lb/> written, the sentiment of which was he<lb/> had striven to leave no
                 duty unfulfilled<lb/> &amp; to leave unstained his father's name.</p></div>
             
@@ -934,7 +927,7 @@ the Standard Bank.<lb/></p>
                     >H.H.</persName> stayed in the room<lb/> while Penhale's man came to
                 collect<lb/> his bills. Quite successful. I offered<lb/> £4. (even that being double
                 the right<lb/> cost) in settlement of the £4.10.6 and<lb/> it was at last done with
-                and settled.<lb/> Lady Iddesleigh<note place="above" type="gloss">Cousin Lucy</note> (young) to tea and<lb/> then finished letters &amp; accounts<lb/>
+                and settled.<lb/> Lady Iddesleigh <add>Cousin Lucy</add> (young) to tea and<lb/> then finished letters &amp; accounts<lb/>
                 &amp; wrote up this journal. My work<lb/> is finished at last, and there<lb/> will
                 be rest till Philippolis is<lb/> reached. I hear the Louis Jacobiz's<lb/> are going
                 by our boat.</p></div>
@@ -1002,8 +995,7 @@ the Standard Bank.<lb/></p>
                 coverlet.<lb/> The doctor came to see her &amp; Mr. Trotter at<lb/> the same moment
                 to take me to Wimbledon.<lb/> I saw that Dr. Fuller thought her very weak<lb/> and
                 ordered a tonic. Then we started<lb/> going via Battersea (where we called to
-                say<lb/> goodbye to <persName ref="#johnburns">John Burns</persName><note
-                    type="gloss" place="below">not at home</note>) thence by Clapham<lb/> Common
+                say<lb/> goodbye to <persName ref="#johnburns">John Burns</persName><add>not at home</add>) thence by Clapham<lb/> Common
                 &amp; Tooting to Wimbledon. Posters<lb/> full of the budding revolution in
                 Russia.<lb/> At Wimbledon a lovely day. No one at<lb/> home, so sat an hour reading
                 Mr. Montgomery's<lb/> draft scheme for an S.A. Bank. Do not<lb/> think it will fit.
@@ -1334,7 +1326,7 @@ the Standard Bank.<lb/></p>
                 Helen Botha allowed to remain<lb/> up to late in such rough<lb/> company. They were
                 all three<lb/> in the smoking room singing<lb/> songs with the men till 1.30<lb/>
                 long after the actual dance<lb/> had ended. I lay in my hot<lb/> bunk &amp; listened
-                to the noise<lb/> next door. <unclear>All were pape</unclear> &amp; ill<lb/> next
+                to the noise<lb/> next door. All were <unclear>pape</unclear> &amp; ill<lb/> next
                 day. I was glad to learn<lb/> that Mrs. Jacobiz was as sorry<lb/> as we were about
                 these doings.<lb/>
                 <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/6f0e7e66-a804-410b-b2c4-0b45ba6d7511" n="41v"/> Helen, she affirms was in mind<lb/> still a child,
@@ -1713,8 +1705,7 @@ the Standard Bank.<lb/></p>
                 &amp; I was glad<lb/> to hear disapproved of Refuges<lb/> for the Boer women fallen
                 thro'<lb/> unusual events. I agreed &amp;<lb/> feel too that it <hi rend="underline"
                     >stamps</hi> them.<lb/> She also fancies Mrs. S.S. has exaggerated<lb/> the
-                situation. She talked long &amp;<lb/> then we walked to Plumstead to<lb/> the <note
-                    place="above" type="gloss"><gap/></note> de Villiers' who made me stay<lb/> to
+                situation. She talked long &amp;<lb/> then we walked to Plumstead to<lb/> the <add><gap/></add> de Villiers' who made me stay<lb/> to
                 dinner. Nice quiet little people.<lb/>
                 <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/1f0a3bc8-8628-40dd-b8f1-12f7a6843b89" n="55v"/> They put me into the tram &amp;<lb/> so home where I
                 found the<lb/> Murray family assembled to<lb/> enjoy music and joined them<lb/> in
